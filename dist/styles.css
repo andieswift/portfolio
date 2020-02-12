@@ -16,8 +16,16 @@ body{
   color: white;
 }
 
+.borderless {
+  border: none;
+}
+
 .h1-lg{
   font-size: 5rem;
+}
+
+.navbar-bg-color{
+  background-color: rbg(0,0,0,.5);
 }
 
 .name-div{
