@@ -7,12 +7,26 @@ body{
 }
 
 .top-image{
-
   background-image: url(./images/background-img.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.text-white{
+  color: white;
+}
+
+.h1-lg{
+  font-size: 5rem;
+}
+
+.name-div{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 75%;
+  transform: translate(-50%, -50%);
+}
 
 .top-right::before{
   position: absolute;
@@ -73,5 +87,34 @@ body{
     height: 75%;
     width: 75%;
     left: 12%;
+  }
+}
+
+@media only screen and (max-device-width: 667px) and (orientation: landscape) {
+  .h1-lg{
+    font-size: 3.5rem;
+  }
+  .h1-sm{
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-device-width: 414px) and (orientation: portrait) {
+  .h1-lg{
+    font-size: 2.5rem;
+  }
+  .h1-sm{
+    font-size: 1.5rem;
+  }
+
+}
+
+
+@media only screen and (max-device-width: 320px) and (orientation: portrait) {
+   .h1-lg{
+    font-size: 2rem;
+  }
+  .h1-sm{
+    font-size: 1rem;
   }
 }

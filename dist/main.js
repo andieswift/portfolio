@@ -8689,8 +8689,14 @@ __webpack_require__.r(__webpack_exports__);
 
 function Main() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "top-image h-100"
+    className: "top-image p-relative h-100"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "name-div d-flex justify-content-center align-items-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "text-white h1-lg"
+  }, "ANDIE SWIFT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "text-white h1-sm"
+  }, "Software Engineer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "top-right"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bottom-left"
