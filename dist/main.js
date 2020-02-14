@@ -8650,6 +8650,37 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./src/about.jsx":
+/*!***********************!*\
+  !*** ./src/about.jsx ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return NavBar; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function NavBar() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "h-100vh bg-white p-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "ml-5"
+  }, "ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex align-items-center justify-content-betweend h-75 p-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/profile.jpg",
+    className: "rounded float-left w-25 mr-5 "
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc mi. Volutpat ac tincidunt vitae semper quis lectus nulla at. Eget nunc scelerisque viverra mauris in. Purus semper eget duis at tellus. Etiam tempor orci eu lobortis. Bibendum ut tristique et egestas quis ipsum. Nisl condimentum id venenatis a. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Augue ut lectus arcu bibendum at. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Dui vivamus arcu felis bibendum ut tristique et egestas. Sed sed risus pretium quam vulputate dignissim suspendisse. Sapien pellentesque habitant morbi tristique. Pretium aenean pharetra magna ac placerat vestibulum. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Sagittis id consectetur purus ut faucibus. Elementum integer enim neque volutpat ac. Mi ipsum faucibus vitae aliquet nec. Posuere sollicitudin aliquam ultrices sagittis. Tristique et egestas quis ipsum suspendisse ultrices gravida.")));
+}
+
+/***/ }),
+
 /***/ "./src/index.jsx":
 /*!***********************!*\
   !*** ./src/index.jsx ***!
@@ -8665,11 +8696,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main */ "./src/main.jsx");
 /* harmony import */ var _nav_bar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./nav-bar */ "./src/nav-bar.jsx");
+/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about */ "./src/about.jsx");
 
 
 
 
-const element = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_nav_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+
+const element = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_nav_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_about__WEBPACK_IMPORTED_MODULE_4__["default"], null));
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(element, document.querySelector('#root'));
 
 /***/ }),
@@ -8754,17 +8787,17 @@ function NavBar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link text-white",
     href: "#"
-  }, "PROJECTS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link text-white",
-    href: "#"
   }, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link text-white",
     href: "#"
   }, "TOOLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link text-white",
+    href: "#"
+  }, "PORTFOLIO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link text-white",

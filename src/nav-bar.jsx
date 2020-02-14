@@ -14,13 +14,13 @@ export default function NavBar() {
             <a className="nav-link text-white" href="#">ABOUT <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="#">PROJECTS</a>
-          </li>
-          <li className="nav-item">
             <a className="nav-link text-white" href="#">SKILLS</a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" href="#">TOOLS</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-white" href="#">PORTFOLIO</a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" href="#">CONTACT</a>

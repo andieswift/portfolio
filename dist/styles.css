@@ -2,14 +2,14 @@ body{
   margin: 0px;
 }
 
-#root{
-  height: 100vh;
-}
-
 .top-image{
   background-image: url(./images/background-img.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.h-100vh, #root {
+  height: 100vh;
 }
 
 .text-white{
@@ -26,6 +26,10 @@ body{
 
 .navbar-bg-color{
   background-color: rbg(0,0,0,.5);
+}
+
+.profile {
+  width: 15%;
 }
 
 .name-div{
