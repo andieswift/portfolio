@@ -12,6 +12,10 @@ body{
   height: 100vh;
 }
 
+.w-30{
+  width: 30%;
+}
+
 .text-white{
   color: white;
 }
@@ -26,10 +30,6 @@ body{
 
 .navbar-bg-color{
   background-color: rbg(0,0,0,.5);
-}
-
-.profile {
-  width: 15%;
 }
 
 .name-div{

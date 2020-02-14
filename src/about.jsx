@@ -6,10 +6,13 @@ import ReactDOM from 'react-dom';
 export default function NavBar() {
   return (
     <div className="h-100vh bg-white p-5">
-      <h1 className="ml-5">ABOUT ME</h1>
-      <div className="d-flex align-items-center justify-content-betweend h-75 p-5">
-        <img src="./images/profile.jpg" className="rounded float-left w-25 mr-5 "></img>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+
+      <div className="d-flex align-items-center justify-content-center h-100 p-5">
+
+        <img src="./images/profile-border.png" className="rounded float-left w-30 mr-5 "></img>
+        <div>
+          <h1> ABOUT ME</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Tempor id eu nisl nunc mi. Volutpat ac tincidunt vitae semper quis
           lectus nulla at. Eget nunc scelerisque viverra mauris in. Purus semper
@@ -24,6 +27,10 @@ export default function NavBar() {
           integer enim neque volutpat ac. Mi ipsum faucibus vitae aliquet nec. Posuere
           sollicitudin aliquam ultrices sagittis. Tristique et egestas quis ipsum suspendisse
           ultrices gravida.</p>
+        </div>
+      </div>
+      <div className="">
+        {/* git hub linked in phone email resume */}
       </div>
     </div>
   )
