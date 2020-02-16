@@ -8,6 +8,12 @@ body{
   background-size: cover;
 }
 
+.tool-bg {
+  background-image: url(./images/tools-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .h-100vh, #root {
   height: 100vh;
 }

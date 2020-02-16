@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 export default function NavBar() {
   return (
-    <div className="h-100vh bg-white">
+    <div className="h-100vh bg-light">
 
       <div className="d-flex align-items-center justify-content-end h-100 p-5">
           <img src="./images/profile-border.png" className="rounded float-left w-30 mr-5 "></img>
