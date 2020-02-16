@@ -8781,7 +8781,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function NavBar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "fixed-top navbar navbar-expand-lg navbar-light"
+    className: "fixed-top navbar navbar-expand-lg navbar-light p-0"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "navbar-toggler borderless",
     type: "button",
@@ -8793,8 +8793,7 @@ function NavBar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "navbar-toggler-icon text-white"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "collapse navbar-collapse d-flex justify-content-end pr-5",
-    id: "navbarNav"
+    className: "collapse nav-bar-bg navbar-collapse d-flex justify-content-end pr-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "navbar-nav"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -8802,9 +8801,7 @@ function NavBar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link text-white",
     href: "#"
-  }, "ABOUT ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "sr-only"
-  }, "(current)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "ABOUT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link text-white",
