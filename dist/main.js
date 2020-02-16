@@ -8922,84 +8922,84 @@ function Tools() {
   }, "TOOLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex h-85 align-items-center justify-content-center flex-wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/tools/github.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "GitHub")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "react-icon",
     src: "./images/tools/amazonwebservices-original.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "AWS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "icon npm",
     src: "./images/tools/npm-original-wordmark.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "npm")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
-    src: "./images/tools/webpack-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
-  }, "WebPack")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
-    src: "./images/tools/babel-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
-  }, "Babel")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
-    src: "./images/tools/nginx-original.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
-  }, "nginx")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/tools/chrome-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Chrome Dev Tools")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon babel",
+    src: "./images/tools/babel-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-white"
+  }, "Babel")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon nginx",
+    src: "./images/tools/nginx-original.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-white"
+  }, "nginx")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon",
+    src: "./images/tools/webpack-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-white"
+  }, "WebPack")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/tools/visualstudio-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "VS Code")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "icon figma",
     src: "./images/tools/Figma-512.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Figma")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/tools/photoshop-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Photoshop")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/tools/ubuntu-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Ubuntu")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/tools/slack-plain.png"

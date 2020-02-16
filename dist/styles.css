@@ -25,6 +25,11 @@ body{
 .h-85{
   height: 85%;
 }
+
+.h-33{
+  height: 33%;
+}
+
 .w-30{
   width: 30%;
 }
@@ -75,9 +80,10 @@ body{
   width: 30%;
 }
 
-.react-icon {
+.react-icon, .figma, .npm, .babel, .nginx {
   width: 40%;
 }
+
 .name-div{
   position: absolute;
   left: 50%;
