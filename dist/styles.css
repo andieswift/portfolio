@@ -32,6 +32,13 @@ body{
   background-color: rbg(0,0,0,.5);
 }
 
+.icon {
+  width: 30%;
+}
+
+.react-icon {
+  width: 40%;
+}
 .name-div{
   position: absolute;
   left: 50%;

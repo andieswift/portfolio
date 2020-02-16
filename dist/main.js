@@ -8721,12 +8721,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main */ "./src/main.jsx");
 /* harmony import */ var _nav_bar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./nav-bar */ "./src/nav-bar.jsx");
 /* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about */ "./src/about.jsx");
+/* harmony import */ var _skills__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./skills */ "./src/skills.jsx");
 
 
 
 
 
-const element = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_nav_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_about__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+
+const element = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_nav_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_about__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_skills__WEBPACK_IMPORTED_MODULE_5__["default"], null));
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(element, document.querySelector('#root'));
 
 /***/ }),
@@ -8827,6 +8829,74 @@ function NavBar() {
     className: "nav-link text-white",
     href: "#"
   }, "CONTACT")))));
+}
+
+/***/ }),
+
+/***/ "./src/skills.jsx":
+/*!************************!*\
+  !*** ./src/skills.jsx ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Skills; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function Skills() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "h-100vh p-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "h-25 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex h-75 align-items-center justify-content-center flex-wrap"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon",
+    src: "./images/skills/javascript-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript 4")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "react-icon",
+    src: "./images/skills/react.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon",
+    src: "./images/skills/nodejs-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon",
+    src: "./images/skills/postgresql-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgreSQL")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon",
+    src: "./images/skills/jquery-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "jQuery")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon",
+    src: "./images/skills/bootstrap-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bootstrap4 ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon",
+    src: "./images/skills/html5-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "icon",
+    src: "./images/skills/css3-plain.png"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"))));
 }
 
 /***/ })
