@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div className="h-100vh bg-white">
 
-      <div className="d-flex align-items-center justify-content-end h-75 p-5">
+      <div className="d-flex align-items-center justify-content-end h-100 p-5">
           <img src="./images/profile-border.png" className="rounded float-left w-30 mr-5 "></img>
         <div>
           <h1> ABOUT ME</h1>
@@ -27,22 +27,22 @@ export default function NavBar() {
           ultrices gravida.</p>
         </div>
       </div>
-      <div className="d-flex">
+      <div className="d-flex flex-align-center justify-content-between w-25 p-relative contact-badge">
         {/* git hub linked in phone email resume */}
-        <div className="icon-circle">
-          <a href="https://github.com/andieswift"><i class="fab fa-github"></i></a>
+        <div className="icon-circle d-flex align-items-center justify-content-center ">
+          <i class="contact-icon fab fa-github"></i>
         </div>
-        <div className="icon-circle">
-          <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+        <div className="icon-circle d-flex align-items-center justify-content-center">
+          <i class="contact-icon fab fa-linkedin"></i>
         </div>
-        <div className="icon-circle">
-          <i class="fas fa-phone"></i>
+        <div className="icon-circle d-flex align-items-center justify-content-center">
+          <i class="contact-icon fas fa-phone"></i>
         </div>
-        <div className="icon-circle">
-          <i class="fas fa-envelope"></i>
+        <div className="icon-circle d-flex align-items-center justify-content-center">
+          <i class="contact-icon fas fa-envelope"></i>
         </div>
-        <div className="icon-circle">
-          <i class="fas fa-file"></i>
+        <div className="icon-circle d-flex align-items-center justify-content-center">
+          <i class="contact-icon fas fa-file"></i>
         </div>
       </div>
     </div>
