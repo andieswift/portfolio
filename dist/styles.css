@@ -41,14 +41,26 @@ body{
 .icon-circle{
   height: 50px;
   width: 50px;
-  border: solid black 3px;
   border-radius: 50%;
   cursor: pointer;
+  box-shadow:  5px 5px 10px #c4c4c4,
+              -5px -5px 10px #ffffff;
+  transition: box-shadow 150ms ease-in-out;
+}
+
+.icon-circle:hover {
+  box-shadow:  2px 2px 5px #c4c4c4,
+              -5px -5px 10px #ffffff;
 }
 
 .contact-icon{
   font-size: 1.5rem;
 }
+
+.contact-icon:hover{
+  color: #ea2e7b;
+}
+
 
 .nav-bar-bg{
   background-image: linear-gradient(to right,#0298fe, #ea2e7b);
