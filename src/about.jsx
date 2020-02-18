@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className="h-100vh bg-light">
 
       <div className="d-flex align-items-center justify-content-end h-100 p-5">
-          <img src="./images/profile-border.png" className="rounded float-left w-30 mr-5 "></img>
+          <img src="./images/profile-border.png" className="rounded profile-img float-left w-30 mr-5 "></img>
         <div>
           <h1> ABOUT ME</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,

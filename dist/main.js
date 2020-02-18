@@ -8673,7 +8673,7 @@ function NavBar() {
     className: "d-flex align-items-center justify-content-end h-100 p-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/profile-border.png",
-    className: "rounded float-left w-30 mr-5 "
+    className: "rounded profile-img float-left w-30 mr-5 "
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, " ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc mi. Volutpat ac tincidunt vitae semper quis lectus nulla at. Eget nunc scelerisque viverra mauris in. Purus semper eget duis at tellus. Etiam tempor orci eu lobortis. Bibendum ut tristique et egestas quis ipsum. Nisl condimentum id venenatis a. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Augue ut lectus arcu bibendum at. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Dui vivamus arcu felis bibendum ut tristique et egestas. Sed sed risus pretium quam vulputate dignissim suspendisse. Sapien pellentesque habitant morbi tristique. Pretium aenean pharetra magna ac placerat vestibulum. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Sagittis id consectetur purus ut faucibus. Elementum integer enim neque volutpat ac. Mi ipsum faucibus vitae aliquet nec. Posuere sollicitudin aliquam ultrices sagittis. Tristique et egestas quis ipsum suspendisse ultrices gravida."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex flex-align-center justify-content-between w-25 p-relative contact-badge"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -8891,50 +8891,50 @@ __webpack_require__.r(__webpack_exports__);
 
 function Skills() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-100vh p-5"
+    className: "h-100vh  d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-25 d-flex align-items-center justify-content-center"
+    className: "h-15 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex h-75 align-items-center justify-content-center flex-wrap"
+    className: "d-flex p-2 h-85 w-75 align-items-center justify-content-center flex-wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/skills/javascript-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript 4")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "react-icon",
     src: "./images/skills/react.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "node-icon",
     src: "./images/skills/nodejs-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/skills/postgresql-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgreSQL")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/skills/jquery-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "jQuery")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/skills/bootstrap-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bootstrap4 ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "HTML-icon",
     src: "./images/skills/html5-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex align-items-center justify-conent-center flex-column"
+    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "CSS-icon",
     src: "./images/skills/css3-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"))));
 }
@@ -8959,7 +8959,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Tools() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-100vh tool-bg p-5"
+    className: "h-100vh tool-bg d-flex flex-column align-itmes-center p-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-15 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -8967,86 +8967,86 @@ function Tools() {
   }, "TOOLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex h-85 align-items-center justify-content-center flex-wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "tools-icon",
     src: "./images/tools/github.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "GitHub")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "react-icon",
     src: "./images/tools/amazonwebservices-original.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "AWS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon npm",
+    className: "tools-icon npm",
     src: "./images/tools/npm-original-wordmark.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "npm")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "icon chrome",
     src: "./images/tools/chrome-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Chrome Dev Tools")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon babel",
     src: "./images/tools/babel-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Babel")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center justify-content-end justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon nginx",
+    className: "tools-icon nginx",
     src: "./images/tools/nginx-original.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "nginx")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "tools-icon",
     src: "./images/tools/webpack-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "WebPack")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "tools-icon",
     src: "./images/tools/visualstudio-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "VS Code")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon figma",
+    className: "tools-icon figma",
     src: "./images/tools/Figma-512.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Figma")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "tools-icon",
     src: "./images/tools/photoshop-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Photoshop")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "tools-icon",
     src: "./images/tools/ubuntu-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "Ubuntu")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 h-33 d-flex align-items-center justify-content-end flex-column"
+    className: "w-10 h-30 icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "tools-icon",
     src: "./images/tools/slack-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
