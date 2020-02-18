@@ -8857,17 +8857,17 @@ function Projects() {
     className: "d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "project-img",
-    src: "./images/projects/wildflower-match-gradient.png"
+    src: "./images/projects/wildflower-match-gradient-name.png"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "project-img",
-    src: "./images/projects/bujo-central-gradient.png"
+    src: "./images/projects/bujo-central-gradient-name.png"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "project-img",
-    src: "./images/projects/habit-tracker-gradient.png"
+    src: "./images/projects/habit-tracker-gradient-name.png"
   }))));
 }
 
