@@ -8857,18 +8857,18 @@ function Projects() {
     className: "d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "project-img",
-    src: "./images/projects/wildflower-match.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Wildflower Match")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    src: "./images/projects/wildflower-match-gradient.png"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "project-img",
-    src: "./images/projects/bujo-central.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Bujo Central ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    src: "./images/projects/bujo-central-gradient.png"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "project-img",
-    src: "./images/projects/habit-tracker.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Habit Tracker"))));
+    src: "./images/projects/habit-tracker-gradient.png"
+  }))));
 }
 
 /***/ }),

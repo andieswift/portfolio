@@ -9,16 +9,13 @@ export default function Projects() {
       </div>
       <div className="d-flex align-items-center justify-content-center">
         <div className="d-flex flex-column align-items-center">
-          <img className="project-img" src="./images/projects/wildflower-match.png" />
-          <p>Wildflower Match</p>
+          <img className="project-img" src="./images/projects/wildflower-match-gradient.png" />
         </div>
         <div className="d-flex flex-column align-items-center">
-          <img className="project-img" src="./images/projects/bujo-central.png" />
-          <p> Bujo Central </p>
+          <img className="project-img" src="./images/projects/bujo-central-gradient.png" />
         </div>
         <div className="d-flex flex-column align-items-center">
-          <img className="project-img" src="./images/projects/habit-tracker.png" />
-          <p>Habit Tracker</p>
+          <img className="project-img" src="./images/projects/habit-tracker-gradient.png" />
         </div>
       </div>
     </div>
