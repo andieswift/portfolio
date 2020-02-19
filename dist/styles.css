@@ -57,10 +57,6 @@ body{
   width: 30%;
 }
 
-.text-white{
-  color: white;
-}
-
 .icon-circle{
   height: 50px;
   width: 50px;
@@ -100,6 +96,10 @@ box-shadow:  5px 5px 10px #c4c4c4,
   letter-spacing: 2px;
   box-shadow: 3px 3px 10px 4px rgba(0,0,0,.3);
   height: 10vh;
+}
+
+.white-border{
+  border: white solid 3px;
 }
 
 .borderless {

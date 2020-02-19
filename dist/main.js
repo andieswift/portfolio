@@ -8859,7 +8859,13 @@ function NavBar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "navbar-toggler-icon text-white"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "collapse nav-bar-bg navbar-collapse d-flex justify-content-end pr-5"
+    className: "collapse nav-bar-bg navbar-collapse "
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "ml-3 p-2 h-75"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    className: "text-white"
+  }, "AS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-100 d-flex justify-content-end pr-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "navbar-nav"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -8887,7 +8893,7 @@ function NavBar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link text-white",
     href: "#"
-  }, "CONTACT")))));
+  }, "CONTACT"))))));
 }
 
 /***/ }),
