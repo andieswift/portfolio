@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import {Link, Element, Events, animateScrool as scroll, scrollSpy, scroller} from 'react-scroll'
 
 export default function NavBar() {
   return (
@@ -14,7 +14,7 @@ export default function NavBar() {
         </div>
         <div className="w-100 d-flex justify-content-end pr-5">
           <ul className="navbar-nav">
-            <li className="nav-item active">
+            <li className="nav-item">
               <a className="nav-link text-white" href="#">ABOUT</a>
             </li>
             <li className="nav-item">

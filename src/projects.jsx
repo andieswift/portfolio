@@ -15,8 +15,8 @@ export default function Projects() {
             <p className="card-text m-0 card-back"><b>Made Using:</b></p>
             <p className="card-text m-0 card-back">JavaScript JQuery HTML CSS </p>
             <div className="card-back">
-              <button className="btn btn-outline-pink mr-1">GitHub  <i className="fab fa-github"></i></button>
-              <button className="btn btn-outline-pink">Live <i className="fas fa-external-link-alt"></i> </button>
+              <a href='https://github.com/andieswift/wildflower-match' target='_blank' className="btn btn-outline-pink mr-1">GitHub  <i className="fab fa-github"></i></a>
+              <a href='https://wildflower-match.andieswift.dev' target='_blank' className="btn btn-outline-pink">Live <i className="fas fa-external-link-alt"></i> </a>
             </div>
           </div>
         </div>
@@ -27,8 +27,8 @@ export default function Projects() {
             <p className="card-text m-0 card-back"><b>Made Using:</b></p>
             <p className="card-text m-0 card-back">React.js Bootstrap Node.js PostgreSQL</p>
             <div className="card-back">
-              <button className="btn btn-outline-pink mr-1">GitHub  <i className="fab fa-github"></i></button>
-              <button className="btn btn-outline-pink">Live <i className="fas fa-external-link-alt"></i></button>
+              <a href='https://github.com/andieswift/bujo-central' target='_blank' className="btn btn-outline-pink mr-1">GitHub  <i className="fab fa-github"></i></a>
+              <a href='https://bujo-central.andieswift.dev' target='_blank' className="btn btn-outline-pink">Live <i className="fas fa-external-link-alt"></i> </a>
             </div>
           </div>
         </div>
@@ -39,8 +39,8 @@ export default function Projects() {
             <p className="card-text m-0 card-back"><b>Made Using:</b></p>
             <p className="card-text m-0 card-back">React.js Bootstrap Node.js PostgreSQL</p>
             <div className="card-back">
-              <button className="btn btn-outline-pink mr-1">GitHub  <i className="fab fa-github"></i></button>
-              <button className="btn btn-outline-pink">Live <i className="fas fa-external-link-alt"></i></button>
+              <a href='https://github.com/andieswift/habit-tracker' target='_blank' className="btn btn-outline-pink mr-1">GitHub  <i className="fab fa-github"></i></a>
+              <a href='https://habit-tracker.andieswift.dev' target='_blank' className="btn btn-outline-pink">Live <i className="fas fa-external-link-alt"></i> </a>
             </div>
           </div>
         </div>
