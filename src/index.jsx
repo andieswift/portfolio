@@ -5,7 +5,8 @@ import NavBar from './nav-bar';
 import About from './about';
 import Skills from './skills';
 import Tools from './tools';
-import Projects from './projects'
+import Projects from './projects';
+import Contact from './contact'
 
 const element = (<>
         <Main />
@@ -14,6 +15,7 @@ const element = (<>
         <Skills />
         <Tools />
         <Projects />
+        <Contact />
         </>)
 
 ReactDOM.render(

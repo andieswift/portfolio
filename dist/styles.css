@@ -14,6 +14,13 @@ body{
   background-size: cover;
 }
 
+.logo-background{
+  background-image: url(./images/logo-blog.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
 .h-100vh, #root {
   height: 100vh;
 }
@@ -32,6 +39,10 @@ body{
 
 .h-30{
   height: 30%;
+}
+
+.h-60{
+  height: 60%;
 }
 
 .w-10{
@@ -60,6 +71,10 @@ body{
   transition: box-shadow 150ms ease-in-out;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .icon-circle:hover {
   box-shadow:  2px 2px 5px #c4c4c4,
               -5px -5px 10px #ffffff;
@@ -74,9 +89,10 @@ box-shadow:  5px 5px 10px #c4c4c4,
   font-size: 1.5rem;
 }
 
-.contact-icon:hover{
+.contact-icon:hover, .pink-hover:hover{
   color: #ea2e7b;
 }
+
 
 .nav-bar-bg{
   background-image: linear-gradient(to right,#0298fe, #ea2e7b);
@@ -92,6 +108,10 @@ box-shadow:  5px 5px 10px #c4c4c4,
 
 .h1-lg{
   font-size: 5rem;
+}
+
+.text-spacing{
+  letter-spacing: .5rem;
 }
 
 .navbar-bg-color{

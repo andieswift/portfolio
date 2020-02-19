@@ -8701,6 +8701,66 @@ function NavBar() {
 
 /***/ }),
 
+/***/ "./src/contact.jsx":
+/*!*************************!*\
+  !*** ./src/contact.jsx ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Contact; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "h-100vh bg-light pt-5 d-flex flex-column justify-content-between align-items-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-50 h-60 logo-background d-flex flex-column justify-content-center align-items-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "h1-lg text-spacing"
+  }, "ANDIE SWIFT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "text-spacing"
+  }, "Software Engineer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-50 d-flex justify-content-between align-item-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "pink-hover"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-map-marker-alt"
+  }), " Orange County, CA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "pink-hover cursor-pointer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-phone"
+  }), " (949)439-7264"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "pink-hover cursor-pointer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-envelope"
+  }), " andie.swift5@gmail.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex justify-content-between align-item-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-circle d-flex align-items-center justify-content-center "
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "contact-icon fab fa-github"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-circle d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "contact-icon fab fa-linkedin"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-circle d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "contact-icon fas fa-file"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-25 d-flex justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xA9 Andie Swift 2020")));
+}
+
+/***/ }),
+
 /***/ "./src/index.jsx":
 /*!***********************!*\
   !*** ./src/index.jsx ***!
@@ -8720,6 +8780,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _skills__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./skills */ "./src/skills.jsx");
 /* harmony import */ var _tools__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./tools */ "./src/tools.jsx");
 /* harmony import */ var _projects__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./projects */ "./src/projects.jsx");
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./contact */ "./src/contact.jsx");
 
 
 
@@ -8728,7 +8789,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const element = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_nav_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_about__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_skills__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tools__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_projects__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+
+const element = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_nav_bar__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_about__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_skills__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tools__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_projects__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_contact__WEBPACK_IMPORTED_MODULE_8__["default"], null));
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(element, document.querySelector('#root'));
 
 /***/ }),
@@ -8862,7 +8924,7 @@ function Projects() {
     className: "card-body p-2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text project-description"
-  }, "Wildflower Match is a memory matching game. The images used are hand drawn illistrations of wildflowers."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Wildflower Match"), " is a memory matching game. The images used are hand drawn illistrations of wildflowers."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
@@ -8885,7 +8947,7 @@ function Projects() {
     className: "card-body p-2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text project-description"
-  }, "Bujo Central is a full-stack e-commerce application where the user can shop for bullet journalling supplies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Bujo Central"), " is a full-stack e-commerce application where the user can shop for bullet journalling supplies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
@@ -8908,7 +8970,7 @@ function Projects() {
     className: "card-body p-2"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text project-description"
-  }, "Habit Tracker is a full-stack application for users to track their habits or send list of habits to other users."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Habit Tracker"), " is a full-stack application for users to track their habits or send list of habits to other users."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
