@@ -29,21 +29,21 @@ export default function NavBar() {
       </div>
       <div className="d-flex flex-align-center justify-content-between w-25 p-relative contact-badge">
         {/* git hub linked in phone email resume */}
-        <div className="icon-circle d-flex align-items-center justify-content-center ">
+        <a href="https://github.com/andieswift" target="_blank" className="icon-circle d-flex align-items-center justify-content-center ">
           <i className="contact-icon fab fa-github"></i>
-        </div>
-        <div className="icon-circle d-flex align-items-center justify-content-center">
+        </a>
+        <a href="https://www.linkedin.com/in/andieswift/" target="_blank" className="icon-circle d-flex align-items-center justify-content-center">
           <i className="contact-icon fab fa-linkedin"></i>
-        </div>
-        <div className="icon-circle d-flex align-items-center justify-content-center">
+        </a>
+        <a href="tel:9494397264" target="_blank" className="icon-circle d-flex align-items-center justify-content-center">
           <i className="contact-icon fas fa-phone"></i>
-        </div>
-        <div className="icon-circle d-flex align-items-center justify-content-center">
+        </a>
+        <a href="mailto:andie.swift5@gmail.com" target="_blank" className="icon-circle d-flex align-items-center justify-content-center">
           <i className="contact-icon fas fa-envelope"></i>
-        </div>
-        <div className="icon-circle d-flex align-items-center justify-content-center">
+        </a>
+        <a target="_blank" className="icon-circle d-flex align-items-center justify-content-center" href="./assets/Andie-Swift.pdf" download="./assets/Andie-Swift.pdf">
           <i className="contact-icon fas fa-file"></i>
-        </div>
+        </a>
       </div>
     </div>
   )

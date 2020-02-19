@@ -10,19 +10,19 @@ export default function Contact() {
       </div>
       <div className="w-50 d-flex justify-content-between align-item-center">
         <p className='pink-hover'><i className="fas fa-map-marker-alt"></i> Orange County, CA</p>
-        <p className='pink-hover cursor-pointer'><i className="fas fa-phone"></i> (949)439-7264</p>
-        <p className='pink-hover cursor-pointer'><i className="fas fa-envelope"></i> andie.swift5@gmail.com</p>
+        <a href="tel:9494397264" target="_blank" > <p className='pink-hover cursor-pointer'><i className="fas fa-phone"></i> (949)439-7264</p></a>
+        <a href="mailto:andie.swift5@gmail.com" target="_blank"> <p className='pink-hover cursor-pointer'><i className="fas fa-envelope"></i> andie.swift5@gmail.com</p></a>
       </div>
       <div className="w-25 d-flex justify-content-between align-item-center">
-        <div className="icon-circle d-flex align-items-center justify-content-center ">
+        <a href="https://github.com/andieswift" target="_blank" className="icon-circle d-flex align-items-center justify-content-center ">
           <i className="contact-icon fab fa-github"></i>
-        </div>
-        <div className="icon-circle d-flex align-items-center justify-content-center">
+        </a>
+        <a href="https://www.linkedin.com/in/andieswift/" target="_blank" className="icon-circle d-flex align-items-center justify-content-center">
           <i className="contact-icon fab fa-linkedin"></i>
-        </div>
-        <div className="icon-circle d-flex align-items-center justify-content-center">
+        </a>
+        <a target="_blank" className="icon-circle d-flex align-items-center justify-content-center" href="./assets/Andie-Swift.pdf" download="./assets/Andie-Swift.pdf">
           <i className="contact-icon fas fa-file"></i>
-        </div>
+        </a>
       </div>
       <div className="w-25 d-flex justify-content-center">
         <p>© Andie Swift 2020</p>

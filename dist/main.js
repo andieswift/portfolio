@@ -12216,24 +12216,35 @@ function NavBar() {
     className: "rounded profile-img float-left w-30 mr-5 "
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, " ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc mi. Volutpat ac tincidunt vitae semper quis lectus nulla at. Eget nunc scelerisque viverra mauris in. Purus semper eget duis at tellus. Etiam tempor orci eu lobortis. Bibendum ut tristique et egestas quis ipsum. Nisl condimentum id venenatis a. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Augue ut lectus arcu bibendum at. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Dui vivamus arcu felis bibendum ut tristique et egestas. Sed sed risus pretium quam vulputate dignissim suspendisse. Sapien pellentesque habitant morbi tristique. Pretium aenean pharetra magna ac placerat vestibulum. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Sagittis id consectetur purus ut faucibus. Elementum integer enim neque volutpat ac. Mi ipsum faucibus vitae aliquet nec. Posuere sollicitudin aliquam ultrices sagittis. Tristique et egestas quis ipsum suspendisse ultrices gravida."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex flex-align-center justify-content-between w-25 p-relative contact-badge"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/andieswift",
+    target: "_blank",
     className: "icon-circle d-flex align-items-center justify-content-center "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fab fa-github"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.linkedin.com/in/andieswift/",
+    target: "_blank",
     className: "icon-circle d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fab fa-linkedin"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "tel:9494397264",
+    target: "_blank",
     className: "icon-circle d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-phone"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:andie.swift5@gmail.com",
+    target: "_blank",
     className: "icon-circle d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-envelope"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-circle d-flex align-items-center justify-content-center"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    className: "icon-circle d-flex align-items-center justify-content-center",
+    href: "./assets/Andie-Swift.pdf",
+    download: "./assets/Andie-Swift.pdf"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-file"
   }))));
@@ -12272,26 +12283,39 @@ function Contact() {
     className: "pink-hover"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-map-marker-alt"
-  }), " Orange County, CA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), " Orange County, CA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "tel:9494397264",
+    target: "_blank"
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "pink-hover cursor-pointer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-phone"
-  }), " (949)439-7264"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), " (949)439-7264")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:andie.swift5@gmail.com",
+    target: "_blank"
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "pink-hover cursor-pointer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-envelope"
-  }), " andie.swift5@gmail.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), " andie.swift5@gmail.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "w-25 d-flex justify-content-between align-item-center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/andieswift",
+    target: "_blank",
     className: "icon-circle d-flex align-items-center justify-content-center "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fab fa-github"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.linkedin.com/in/andieswift/",
+    target: "_blank",
     className: "icon-circle d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fab fa-linkedin"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-circle d-flex align-items-center justify-content-center"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    className: "icon-circle d-flex align-items-center justify-content-center",
+    href: "./assets/Andie-Swift.pdf",
+    download: "./assets/Andie-Swift.pdf"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-file"
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -12437,7 +12461,9 @@ function NavBar() {
     className: "nav-link text-white",
     href: "#"
   }, "CONTACT"))))));
-}
+} // <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+//Test 1
+//        </Link >
 
 /***/ }),
 
