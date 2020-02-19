@@ -12199,15 +12199,16 @@ module.exports = g;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return NavBar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return About; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 
 
-function NavBar() {
+function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "about",
     className: "h-100vh bg-light"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex align-items-center justify-content-end h-100 p-5"
@@ -12270,6 +12271,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Contact() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "contact",
     className: "h-100vh bg-light pt-5 d-flex flex-column justify-content-between align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "w-50 h-60 logo-background d-flex flex-column justify-content-center align-items-center"
@@ -12377,6 +12379,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Main() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "home",
     className: "top-image p-relative h-100"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "name-div d-flex justify-content-center align-items-center flex-column"
@@ -12412,58 +12415,88 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function NavBar() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "fixed-top navbar navbar-expand-lg navbar-light p-0"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "navbar-toggler borderless",
-    type: "button",
-    "data-toggle": "collapse",
-    "data-target": "#navbarNav",
-    "aria-controls": "navbarNav",
-    "aria-expanded": "false",
-    "aria-label": "Toggle navigation"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "navbar-toggler-icon text-white"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "collapse nav-bar-bg navbar-collapse "
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ml-3 p-2 h-75"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
-    className: "text-white"
-  }, "AS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-100 d-flex justify-content-end pr-5"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "navbar-nav"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link text-white",
-    href: "#"
-  }, "ABOUT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link text-white",
-    href: "#"
-  }, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link text-white",
-    href: "#"
-  }, "TOOLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link text-white",
-    href: "#"
-  }, "PORTFOLIO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link text-white",
-    href: "#"
-  }, "CONTACT"))))));
-} // <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
-//Test 1
-//        </Link >
+class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+      className: "fixed-top navbar navbar-expand-lg navbar-light p-0"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      className: "navbar-toggler borderless",
+      type: "button",
+      "data-toggle": "collapse",
+      "data-target": "#navbarNav",
+      "aria-controls": "navbarNav",
+      "aria-expanded": "false",
+      "aria-label": "Toggle navigation"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: "navbar-toggler-icon text-white"
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "collapse nav-bar-bg navbar-collapse "
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      spy: true,
+      smooth: true,
+      duration: 500,
+      activeClass: "active",
+      to: "home",
+      className: "cursor-pointer ml-3 p-2 h-75"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+      className: "text-white"
+    }, "AS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "w-100 d-flex justify-content-end pr-5"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: "navbar-nav"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      spy: true,
+      smooth: true,
+      duration: 500,
+      activeClass: "active",
+      to: "about",
+      className: " cursor-pointer nav-link text-white"
+    }, "ABOUT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      spy: true,
+      smooth: true,
+      duration: 500,
+      activeClass: "active",
+      to: "skills",
+      className: "cursor-pointer nav-link text-white"
+    }, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      spy: true,
+      smooth: true,
+      duration: 500,
+      activeClass: "active",
+      to: "tools",
+      className: "cursor-pointer nav-link text-white"
+    }, "TOOLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      spy: true,
+      smooth: true,
+      duration: 500,
+      activeClass: "active",
+      to: "portfolio",
+      className: "cursor-pointer nav-link text-white"
+    }, "PORTFOLIO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "nav-item"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      spy: true,
+      smooth: true,
+      duration: 500,
+      activeClass: "active",
+      to: "contact",
+      className: "cursor-pointer nav-link text-white"
+    }, "CONTACT"))))));
+  }
+
+}
 
 /***/ }),
 
@@ -12485,6 +12518,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Projects() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "portfolio",
     className: "h-100vh p-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-15 d-flex align-items-center justify-content-center"
@@ -12594,9 +12628,10 @@ __webpack_require__.r(__webpack_exports__);
 
 function Skills() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-100vh  d-flex flex-column align-items-center"
+    id: "skills",
+    className: "h-100vh pt-5 d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-15 d-flex align-items-end justify-content-center"
+    className: "h-15 d-flex align-items-end justify-content-end"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex p-2 h-85 w-75 align-items-center justify-content-center flex-wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -12662,6 +12697,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Tools() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "tools",
     className: "h-100vh tool-bg d-flex flex-column align-itmes-center p-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-15 d-flex align-items-center justify-content-center"

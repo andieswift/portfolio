@@ -67,6 +67,10 @@ a:hover{
   color: #ea2e7b;
 }
 
+.active {
+  color: purple;
+}
+
 .icon-circle{
   height: 50px;
   width: 50px;

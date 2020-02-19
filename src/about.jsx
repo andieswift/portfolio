@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-export default function NavBar() {
+export default function About() {
   return (
-    <div className="h-100vh bg-light">
-
+    <div id="about" className="h-100vh bg-light">
       <div className="d-flex align-items-center justify-content-end h-100 p-5">
           <img src="./images/profile-border.png" className="rounded profile-img float-left w-30 mr-5 "></img>
         <div>

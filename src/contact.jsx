@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 export default function Contact() {
   return (
-    <div className="h-100vh bg-light pt-5 d-flex flex-column justify-content-between align-items-center">
+    <div id="contact" className="h-100vh bg-light pt-5 d-flex flex-column justify-content-between align-items-center">
       <div className="w-50 h-60 logo-background d-flex flex-column justify-content-center align-items-center">
         <h1 className="h1-lg text-spacing">ANDIE SWIFT</h1>
         <h3 className="text-spacing">Software Engineer</h3>

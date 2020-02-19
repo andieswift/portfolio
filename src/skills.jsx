@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 
 export default function Skills() {
   return (
-  <div className="h-100vh  d-flex flex-column align-items-center">
-    <div className="h-15 d-flex align-items-end justify-content-center" >
+  <div id="skills" className="h-100vh pt-5 d-flex flex-column align-items-center">
+    <div className="h-15 d-flex align-items-end justify-content-end" >
       <h1>SKILLS</h1>
     </div>
     <div className="d-flex p-2 h-85 w-75 align-items-center justify-content-center flex-wrap">

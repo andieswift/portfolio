@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 export default function Projects() {
   return (
-    <div className="h-100vh p-5">
+    <div id="portfolio" className="h-100vh p-5">
       <div className="h-15 d-flex align-items-center justify-content-center" >
         <h1>PROJECTS</h1>
       </div>
