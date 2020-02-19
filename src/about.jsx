@@ -30,19 +30,19 @@ export default function NavBar() {
       <div className="d-flex flex-align-center justify-content-between w-25 p-relative contact-badge">
         {/* git hub linked in phone email resume */}
         <div className="icon-circle d-flex align-items-center justify-content-center ">
-          <i class="contact-icon fab fa-github"></i>
+          <i className="contact-icon fab fa-github"></i>
         </div>
         <div className="icon-circle d-flex align-items-center justify-content-center">
-          <i class="contact-icon fab fa-linkedin"></i>
+          <i className="contact-icon fab fa-linkedin"></i>
         </div>
         <div className="icon-circle d-flex align-items-center justify-content-center">
-          <i class="contact-icon fas fa-phone"></i>
+          <i className="contact-icon fas fa-phone"></i>
         </div>
         <div className="icon-circle d-flex align-items-center justify-content-center">
-          <i class="contact-icon fas fa-envelope"></i>
+          <i className="contact-icon fas fa-envelope"></i>
         </div>
         <div className="icon-circle d-flex align-items-center justify-content-center">
-          <i class="contact-icon fas fa-file"></i>
+          <i className="contact-icon fas fa-file"></i>
         </div>
       </div>
     </div>

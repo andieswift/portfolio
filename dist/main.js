@@ -8679,23 +8679,23 @@ function NavBar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "icon-circle d-flex align-items-center justify-content-center "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "contact-icon fab fa-github"
+    className: "contact-icon fab fa-github"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "icon-circle d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "contact-icon fab fa-linkedin"
+    className: "contact-icon fab fa-linkedin"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "icon-circle d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "contact-icon fas fa-phone"
+    className: "contact-icon fas fa-phone"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "icon-circle d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "contact-icon fas fa-envelope"
+    className: "contact-icon fas fa-envelope"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "icon-circle d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "contact-icon fas fa-file"
+    className: "contact-icon fas fa-file"
   }))));
 }
 
@@ -8850,25 +8850,79 @@ function Projects() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-100vh p-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-25 d-flex align-items-center justify-content-center"
+    className: "h-15 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "PROJECTS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex align-items-center justify-content-center"
+    className: "h-85 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex flex-column align-items-center"
+    className: "d-flex project-card card m-2  mt-0 h-100 p-2 w-25 flex-column align-items-center jus"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "project-img",
+    className: "card-img-top project-img",
     src: "./images/projects/wildflower-match-gradient-name.png"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex flex-column align-items-center"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body p-2"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text project-description"
+  }, "Wildflower Match is a memory matching game. The images used are hand drawn illistrations of wildflowers."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text m-0 card-back"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text m-0 card-back"
+  }, "JavaScript JQuery HTML CSS "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-back"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-outline-pink mr-1"
+  }, "GitHub  ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-github"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-outline-pink"
+  }, "Live ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-external-link-alt"
+  }), " ")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex project-card card m-2  mt-0 h-100 w-25 p-2 flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "project-img",
+    className: "card-img-top project-img",
     src: "./images/projects/bujo-central-gradient-name.png"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex flex-column align-items-center"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body p-2"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text project-description"
+  }, "Bujo Central is a full-stack e-commerce application where the user can shop for bullet journalling supplies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text m-0 card-back"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text m-0 card-back"
+  }, "React.js Bootstrap Node.js PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-back"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-outline-pink mr-1"
+  }, "GitHub  ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-github"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-outline-pink"
+  }, "Live ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-external-link-alt"
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex project-card card m-2  mt-0 h-100 w-25 p-2 flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "project-img",
+    className: "card-img-top project-img",
     src: "./images/projects/habit-tracker-gradient-name.png"
-  }))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body p-2"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text project-description"
+  }, "Habit Tracker is a full-stack application for users to track their habits or send list of habits to other users."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text m-0 card-back"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text m-0 card-back"
+  }, "React.js Bootstrap Node.js PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-back"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-outline-pink mr-1"
+  }, "GitHub  ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-github"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-outline-pink"
+  }, "Live ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-external-link-alt"
+  })))))));
 }
 
 /***/ }),
@@ -8893,7 +8947,7 @@ function Skills() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-100vh  d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-15 d-flex align-items-center justify-content-center"
+    className: "h-15 d-flex align-items-end justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex p-2 h-85 w-75 align-items-center justify-content-center flex-wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
