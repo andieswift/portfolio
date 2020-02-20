@@ -12211,7 +12211,7 @@ function About() {
     id: "about",
     className: "about-div bg-light"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-100 w-100 container"
+    className: "h-100 container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row h-100"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -12220,9 +12220,9 @@ function About() {
     className: "sm-about-me"
   }, "ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/profile-border.png",
-    className: "rounded profile-img float-left w-100"
+    className: "rounded profile-img w-100"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex flex-align-center justify-content-between w-100 h-25 contact-bar"
+    className: "d-flex flex-align-center justify-content-between w-100 m-lg-3 contact-bar"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/andieswift",
     target: "_blank",
@@ -12639,52 +12639,74 @@ __webpack_require__.r(__webpack_exports__);
 function Skills() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "skills",
-    className: "h-100vh pt-5 d-flex flex-column align-items-center"
+    className: "skills-div pt-5 d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-15 d-flex align-items-end justify-content-end"
+    className: "h-15 d-flex skill-row align-items-end justify-content-end"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex p-2 h-85 w-75 align-items-center justify-content-center flex-wrap"
+    className: "container h-85"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
+    className: "row h-50 skill-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-box d-flex flex-column align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/skills/javascript-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "m-0"
+  }, "JavaScript"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-box d-flex flex-column align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "react-icon",
     src: "./images/skills/react.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React.js"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-box d-flex flex-column align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "node-icon",
     src: "./images/skills/nodejs-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-box d-flex flex-column align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/skills/postgresql-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgreSQL")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgreSQL")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row h-50 skill-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-box d-flex flex-column align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon",
     src: "./images/skills/jquery-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "jQuery")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "jQuery"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-box d-flex flex-column align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "icon",
+    className: "bootstrap-icon",
     src: "./images/skills/bootstrap-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bootstrap4 ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Bootstrap4 "))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-box d-flex flex-column align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "HTML-icon",
     src: "./images/skills/html5-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-10 m-5 h-30 icon-box p-3 d-flex align-items-center flex-column"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "icon-box d-flex flex-column align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "CSS-icon",
     src: "./images/skills/css3-plain.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"))))));
 }
 
 /***/ }),

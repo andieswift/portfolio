@@ -5,12 +5,12 @@ import ReactDOM from 'react-dom';
 export default function About() {
   return (
     <div id="about" className="about-div bg-light">
-      <div className="h-100 w-100 container">
+      <div className="h-100 container">
         <div className="row h-100">
           <div className = "about-top-div col-lg-4 col-sm-12 profile-img-div d-flex flex-column justify-content-center align-items-center">
             <h1 className="sm-about-me">ABOUT ME</h1>
-            <img src="./images/profile-border.png" className="rounded profile-img float-left w-100"></img>
-            <div className="d-flex flex-align-center justify-content-between w-100 h-25 contact-bar">
+            <img src="./images/profile-border.png" className="rounded profile-img w-100"></img>
+            <div className="d-flex flex-align-center justify-content-between w-100 m-lg-3 contact-bar">
               {/* git hub linked in phone email resume */}
               <a href="https://github.com/andieswift" target="_blank" className="icon-circle d-flex align-items-center justify-content-center ">
                 <i className="contact-icon fab fa-github"></i>
