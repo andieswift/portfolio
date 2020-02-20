@@ -21,7 +21,7 @@ body{
   background-position: center;
 }
 
-.h-100vh, #root, .about-div, .skills-div {
+.h-100vh, #root, .about-div, .skills-div, .tools-div{
   height: 100vh;
 }
 
@@ -284,7 +284,7 @@ box-shadow:  3px 3px 7px #b0b0b0,
 
 /* MEDIA QUERIESSSS */
 @media only screen and (max-device-width: 1024px) {
-  .about-div, .skills-div{
+  .about-div, .skills-div, .tools-div{
     height: auto;
     padding: 5rem;
   }
