@@ -21,7 +21,7 @@ body{
   background-position: center;
 }
 
-.h-100vh, #root {
+.h-100vh, #root, .about-div {
   height: 100vh;
 }
 
@@ -65,10 +65,6 @@ a{
 a:hover{
   text-decoration: none;
   color: #ea2e7b;
-}
-
-.active {
-  color: purple;
 }
 
 .icon-circle{
@@ -120,6 +116,10 @@ box-shadow:  5px 5px 10px #c4c4c4,
   border: none;
 }
 
+.sm-about-me{
+  display: none;
+}
+
 .h1-lg{
   font-size: 5rem;
 }
@@ -130,12 +130,6 @@ box-shadow:  5px 5px 10px #c4c4c4,
 
 .navbar-bg-color{
   background-color: rbg(0,0,0,.5);
-}
-
-.contact-badge {
-  position: relative;
-  bottom: 15%;
-  left: 5%;
 }
 
 .icon {
@@ -283,6 +277,30 @@ box-shadow:  3px 3px 7px #b0b0b0,
     height: 75%;
     width: 75%;
     left: 12%;
+  }
+}
+
+/* MEDIA QUERIESSSS */
+@media only screen and (max-device-width: 768px) {
+  .about-top-div{
+    margin-top: 3rem;
+  }
+
+  .contact-bar{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-div{
+    height: auto;
+  }
+
+  .sm-about-me{
+    display: inline;
+  }
+
+  .lg-about-me{
+    display: none;
   }
 }
 

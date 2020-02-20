@@ -13,9 +13,9 @@ export default class NavBar extends React.Component{
         <span className="navbar-toggler-icon text-white"></span>
       </button>
       <div className="collapse nav-bar-bg navbar-collapse ">
-          <Link spy={true} smooth={true} duration={500} activeClass="active" to="home" className="cursor-pointer ml-3 p-2 h-75">
-          <h5 className="text-white">AS</h5>
-        </Link>
+          <Link spy={true} smooth={true} duration={500} activeClass="active" to="home" className=" cursor-pointer nav-link text-white">
+          <h5 className="text-white nav-item">AS</h5>
+          </Link>
         <div className="w-100 d-flex justify-content-end pr-5">
           <ul className="navbar-nav">
             <li className="nav-item">

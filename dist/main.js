@@ -12209,14 +12209,20 @@ __webpack_require__.r(__webpack_exports__);
 function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "about",
-    className: "h-100vh bg-light"
+    className: "about-div bg-light"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex align-items-center justify-content-end h-100 p-5"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "h-100 w-100 container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row h-100"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "about-top-div col-lg-4 col-sm-12 profile-img-div d-flex flex-column justify-content-center align-items-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sm-about-me"
+  }, "ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/profile-border.png",
-    className: "rounded profile-img float-left w-30 mr-5 "
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, " ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc mi. Volutpat ac tincidunt vitae semper quis lectus nulla at. Eget nunc scelerisque viverra mauris in. Purus semper eget duis at tellus. Etiam tempor orci eu lobortis. Bibendum ut tristique et egestas quis ipsum. Nisl condimentum id venenatis a. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Augue ut lectus arcu bibendum at. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Dui vivamus arcu felis bibendum ut tristique et egestas. Sed sed risus pretium quam vulputate dignissim suspendisse. Sapien pellentesque habitant morbi tristique. Pretium aenean pharetra magna ac placerat vestibulum. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Sagittis id consectetur purus ut faucibus. Elementum integer enim neque volutpat ac. Mi ipsum faucibus vitae aliquet nec. Posuere sollicitudin aliquam ultrices sagittis. Tristique et egestas quis ipsum suspendisse ultrices gravida."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex flex-align-center justify-content-between w-25 p-relative contact-badge"
+    className: "rounded profile-img float-left w-100"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex flex-align-center justify-content-between w-100 h-25 contact-bar"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/andieswift",
     target: "_blank",
@@ -12248,7 +12254,11 @@ function About() {
     download: "./assets/Andie-Swift.pdf"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-file"
-  }))));
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-8 col-sm-12 d-flex flex-column justify-content-center align-items-start"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "lg-about-me"
+  }, " ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc mi. Volutpat ac tincidunt vitae semper quis lectus nulla at. Eget nunc scelerisque viverra mauris in. Purus semper eget duis at tellus. Etiam tempor orci eu lobortis. Bibendum ut tristique et egestas quis ipsum. Nisl condimentum id venenatis a. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Augue ut lectus arcu bibendum at. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Dui vivamus arcu felis bibendum ut tristique et egestas. Sed sed risus pretium quam vulputate dignissim suspendisse. Sapien pellentesque habitant morbi tristique. Pretium aenean pharetra magna ac placerat vestibulum. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Sagittis id consectetur purus ut faucibus. Elementum integer enim neque volutpat ac. Mi ipsum faucibus vitae aliquet nec. Posuere sollicitudin aliquam ultrices sagittis. Tristique et egestas quis ipsum suspendisse ultrices gravida.")))));
 }
 
 /***/ }),
@@ -12441,9 +12451,9 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       duration: 500,
       activeClass: "active",
       to: "home",
-      className: "cursor-pointer ml-3 p-2 h-75"
+      className: " cursor-pointer nav-link text-white"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
-      className: "text-white"
+      className: "text-white nav-item"
     }, "AS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "w-100 d-flex justify-content-end pr-5"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
