@@ -12282,35 +12282,41 @@ __webpack_require__.r(__webpack_exports__);
 function Contact() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "contact",
-    className: "h-100vh bg-light pt-5 d-flex flex-column justify-content-between align-items-center"
+    className: "contact-div bg-light pt-5 d-flex flex-column justify-content-between align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-50 h-60 logo-background d-flex flex-column justify-content-center align-items-center"
+    className: "container contact-logo logo-background"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "h-100 row flex-column justify-content-center align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "h1-lg text-spacing"
+    className: "sm-heigh h1-lg text-spacing text-center"
   }, "ANDIE SWIFT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "text-spacing"
-  }, "Software Engineer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-50 d-flex justify-content-between align-item-center"
+    className: "sm-height text-spacing text-center"
+  }, "Software Engineer"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container d-flex flex-column align-items-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "location-div row justify-content-between align-item-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "pink-hover"
+    className: "pink-hover col-12 col-md-4 text-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-map-marker-alt"
   }), " Orange County, CA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "tel:9494397264",
-    target: "_blank"
+    target: "_blank",
+    className: "col-12 col-md-4 text-center"
   }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "pink-hover cursor-pointer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-phone"
   }), " (949)439-7264")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "mailto:andie.swift5@gmail.com",
+    className: "col-12 col-md-4 text-center",
     target: "_blank"
   }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "pink-hover cursor-pointer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-envelope"
   }), " andie.swift5@gmail.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex justify-content-between align-item-center"
+    className: "contact-info row justify-content-between align-item-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/andieswift",
     target: "_blank",
@@ -12331,8 +12337,8 @@ function Contact() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-file"
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-25 d-flex justify-content-center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xA9 Andie Swift 2020")));
+    className: "copy-right row justify-content-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xA9 Andie Swift 2020"))));
 }
 
 /***/ }),
