@@ -12730,7 +12730,7 @@ __webpack_require__.r(__webpack_exports__);
 function Tools() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "tools",
-    className: "tools-div tool-bg d-flex flex-column align-itmes-center p-5"
+    className: "tools-div tool-bg d-flex flex-column align-itmes-center pt-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-15 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -12738,120 +12738,120 @@ function Tools() {
   }, "TOOLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container h-85"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row h-33 tools-row"
+    className: "row tools-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-3 icon-box-dark d-flex align-items-center justify-content"
+    className: " icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon",
     src: "./images/tools/github.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "GitHub"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-3 icon-box-dark align-items-center flex-column"
+    className: "col-md-3 col-6 d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
+    className: "icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "react-icon",
     src: "./images/tools/amazonwebservices-original.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "AWS"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark d-flex align-items-center flex-column"
+    className: "icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon npm",
     src: "./images/tools/npm-original-wordmark.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "npm"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: " icon-box-dark d-flex align-items-center flex-column"
+    className: " icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon chrome",
     src: "./images/tools/chrome-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0 chrome-text"
   }, "Chrome Dev Tools")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row h-33 tools-row"
+    className: "row tools-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark d-flex align-items-center justify-content-end flex-column"
+    className: "icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "icon babel",
     src: "./images/tools/babel-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "Babel"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark d-flex align-items-center justify-content-end justify-content-end flex-column"
+    className: "icon-box-dark d-flex align-items-center justify-content-center justify-content-end flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon nginx",
     src: "./images/tools/nginx-original.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "nginx"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark d-flex align-items-center flex-column"
+    className: "icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon",
     src: "./images/tools/webpack-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "WebPack"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark d-flex align-items-center flex-column"
+    className: "icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon",
     src: "./images/tools/visualstudio-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "VS Code")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row h-33 tools-row"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row tools-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark d-flex align-items-center flex-column"
+    className: "icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon figma",
     src: "./images/tools/Figma-512.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "Figma"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark d-flex align-items-center flex-column"
+    className: "icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon",
     src: "./images/tools/photoshop-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "Photoshop"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark d-flex align-items-center flex-column"
+    className: "icon-box-dark d-flex align-items-center justify-content-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon",
     src: "./images/tools/ubuntu-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
+    className: "text-white m-0"
   }, "Ubuntu"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3 col-6 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "icon-box-dark mr-5 ml-5 p-3 d-flex align-items-center flex-column"
+    className: "icon-box-dark d-flex justify-content-center align-items-center flex-column"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "tools-icon",
     src: "./images/tools/slack-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white"
-  }, "Slack")))));
+    className: "text-white m-0"
+  }, "Slack"))))));
 }
 
 /***/ })
