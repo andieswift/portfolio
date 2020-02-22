@@ -26,8 +26,14 @@ body{
   width: 50%;
 }
 
-.h-100vh, #root, .contact-div, .about-div, .skills-div, .tools-div{
+#root, .contact-div, .about-div, .skills-div, .tools-div, .portfolio-div{
   height: 100vh;
+}
+
+.portfolio-div {
+  padding-top: 5rem;
+  padding-right: 9rem;
+  padding-left: 9rem;
 }
 
 .h-15{
@@ -166,24 +172,34 @@ box-shadow:  5px 5px 10px #c4c4c4,
   border-radius: 10%;
 }
 
+.project-row{
+  padding-bottom: 2rem;
+}
+
 .project-card{
   border-radius: 10%;
   border: none;
+  height: 100%;
+  padding-top: .5rem;
   box-shadow:  7px 7px 14px #b0b0b0,
               -7px -7px 14px #ffffff;
 }
 
-.project-card:hover{
+.project-card:hover, .project-card:active{
 box-shadow:  3px 3px 7px #b0b0b0,
               -3px -3px 7px #ffffff;
 }
 
-.project-card:hover .project-description {
+.project-card:hover .project-description, .project-card:active .project-description {
   display: none;
 }
 
-.project-card:hover .card-back{
+.project-card:hover .card-back, .project-card:active .card-back{
   display: inline-block;
+}
+
+.project-card:hover .btn-div, .project-card:active .btn-div{
+  align-items: center;
 }
 
 .btn-outline-pink{
@@ -296,7 +312,18 @@ box-shadow:  3px 3px 7px #b0b0b0,
     padding-top: 5rem;
   }
 
-   .contact-logo{
+  .portfolio-div{
+    height: fit-content;
+    padding-top: 5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .project-card{
+    border-radius: 7%;
+  }
+
+  .contact-logo{
     height: 525px;
     width: 100%;
   }
@@ -315,6 +342,13 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .about-div, .skills-div, .tools-div{
     height: auto;
     padding: 5rem;
+  }
+
+  .portfolio-div{
+    height: fit-content;
+    padding-top: 5rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .contact-div{
@@ -390,6 +424,10 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .copy-right{
     width: 30%;
   }
+
+  .project-card{
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-device-width: 736px) and (orientation: landscape) {
@@ -455,6 +493,10 @@ box-shadow:  3px 3px 7px #b0b0b0,
 
   .icon-box, .icon-box-dark{
     margin-bottom: 2rem;
+  }
+
+  .project-card{
+    margin: 2rem;
   }
 }
 

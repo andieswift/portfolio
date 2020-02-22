@@ -12535,18 +12535,22 @@ __webpack_require__.r(__webpack_exports__);
 function Projects() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "portfolio",
-    className: "h-100vh p-5"
+    className: "portfolio-div"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-15 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "PROJECTS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "h-85 d-flex align-items-center justify-content-center"
+    className: "h-85 container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex project-card card m-2  mt-0 h-100 p-2 w-25 flex-column align-items-center jus"
+    className: "row project-row h-100 align-items-center justify-content-between"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-4 h-100"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex project-card card flex-column align-items-center "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "card-img-top project-img",
     src: "./images/projects/wildflower-match-gradient-name.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-body p-2"
+    className: "card-body pt-1 pl-3 pr-1"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text project-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Wildflower Match"), " is a memory matching game. The images used are hand drawn illistrations of wildflowers."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -12567,13 +12571,15 @@ function Projects() {
     className: "btn btn-outline-pink"
   }, "Live ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-external-link-alt"
-  }), " ")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex project-card card m-2  mt-0 h-100 w-25 p-2 flex-column align-items-center"
+  }), " "))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-4 h-100"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex project-card card flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "card-img-top project-img",
     src: "./images/projects/bujo-central-gradient-name.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-body p-2"
+    className: "card-body pt-1 pl-3 pr-1"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text project-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Bujo Central"), " is a full-stack e-commerce application where the user can shop for bullet journalling supplies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -12581,7 +12587,7 @@ function Projects() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
   }, "React.js Bootstrap Node.js PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-back"
+    className: "card-back btn-div"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/andieswift/bujo-central",
     target: "_blank",
@@ -12594,13 +12600,15 @@ function Projects() {
     className: "btn btn-outline-pink"
   }, "Live ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-external-link-alt"
-  }), " ")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex project-card card m-2  mt-0 h-100 w-25 p-2 flex-column align-items-center"
+  }), " "))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-4 h-100"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-flex project-card card flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "card-img-top project-img",
     src: "./images/projects/habit-tracker-gradient-name.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-body p-2"
+    className: "card-body pt-1 pl-3 pr-1"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text project-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Habit Tracker"), " is a full-stack application for users to track their habits or send list of habits to other users."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -12621,7 +12629,7 @@ function Projects() {
     className: "btn btn-outline-pink"
   }, "Live ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-external-link-alt"
-  }), " "))))));
+  }), " "))))))));
 }
 
 /***/ }),
