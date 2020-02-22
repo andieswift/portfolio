@@ -12438,19 +12438,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
   render() {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-      className: "fixed-top navbar navbar-expand-lg navbar-light p-0"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-      className: "navbar-toggler borderless",
-      type: "button",
-      "data-toggle": "collapse",
-      "data-target": "#navbarNav",
-      "aria-controls": "navbarNav",
-      "aria-expanded": "false",
-      "aria-label": "Toggle navigation"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "navbar-toggler-icon text-white"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "collapse nav-bar-bg navbar-collapse "
+      className: "fixed-top navbar navbar-expand-lg nav-bar-bg navbar-light p-0"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       spy: true,
       smooth: true,
@@ -12460,8 +12448,22 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: " cursor-pointer nav-link text-white"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
       className: "text-white nav-item"
-    }, "AS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "w-100 d-flex justify-content-end pr-5"
+    }, "AS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      className: "navbar-toggler borderless",
+      type: "button",
+      "data-toggle": "collapse",
+      "data-target": "#navbarNav",
+      "aria-controls": "navbarNav",
+      "aria-expanded": "false",
+      "aria-label": "Toggle navigation"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: "cursor-pointer text-white"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "fas fa-bars"
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "collapse  navbar-collapse "
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "w-100 d-flex justify-content-end"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
       className: "navbar-nav"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -12545,7 +12547,7 @@ function Projects() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-4 h-100"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex project-card card flex-column align-items-center "
+    className: "d-flex project-card card flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "card-img-top project-img",
     src: "./images/projects/wildflower-match-gradient-name.png"

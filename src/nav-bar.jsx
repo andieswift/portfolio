@@ -8,15 +8,15 @@ export default class NavBar extends React.Component{
   }
   render() {
     return (
-    <nav className="fixed-top navbar navbar-expand-lg navbar-light p-0">
-      <button className="navbar-toggler borderless" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon text-white"></span>
-      </button>
-      <div className="collapse nav-bar-bg navbar-collapse ">
-          <Link spy={true} smooth={true} duration={500} activeClass="active" to="home" className=" cursor-pointer nav-link text-white">
+      <nav className="fixed-top navbar navbar-expand-lg nav-bar-bg navbar-light p-0">
+        <Link spy={true} smooth={true} duration={500} activeClass="active" to="home" className=" cursor-pointer nav-link text-white">
           <h5 className="text-white nav-item">AS</h5>
-          </Link>
-        <div className="w-100 d-flex justify-content-end pr-5">
+        </Link>
+        <button className="navbar-toggler borderless" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="cursor-pointer text-white"><i className="fas fa-bars"></i></span>
+        </button>
+      <div className="collapse  navbar-collapse ">
+        <div className="w-100 d-flex justify-content-end">
           <ul className="navbar-nav">
             <li className="nav-item">
                 <Link spy={true} smooth={true} duration={500} activeClass="active" to="about" className=" cursor-pointer nav-link text-white">ABOUT</Link>

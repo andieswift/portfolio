@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 export default function Projects() {
+
   return (
     <div id="portfolio" className="portfolio-div">
       <div className="h-15 d-flex align-items-center justify-content-center" >
@@ -10,7 +11,7 @@ export default function Projects() {
       <div className="h-85 container">
         <div className="row project-row h-100 align-items-center justify-content-between">
           <div className="col-md-4 h-100">
-            <div className="d-flex project-card card flex-column align-items-center ">
+            <div className="d-flex project-card card flex-column align-items-center">
               <img className="card-img-top project-img" src="./images/projects/wildflower-match-gradient-name.png" />
               <div className="card-body pt-1 pl-3 pr-1">
                 <p className="card-text project-description"><b>Wildflower Match</b> is a memory matching game. The images used are hand drawn illistrations of wildflowers.</p>
