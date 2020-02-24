@@ -23,7 +23,7 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/andieswift/" target="_blank" className="icon-circle d-flex align-items-center justify-content-center">
               <i className="contact-icon fab fa-linkedin"></i>
             </a>
-            <a target="_blank" className="icon-circle d-flex align-items-center justify-content-center" href="./assets/Andie-Swift.pdf" download="./assets/Andie-Swift.pdf">
+            <a target="_blank" className="icon-circle d-flex align-items-center justify-content-center" href="./assets/Andie-Swift-Resume.pdf" download="./assets/Andie-Swift-Resume.pdf">
               <i className="contact-icon fas fa-file"></i>
             </a>
           </div>

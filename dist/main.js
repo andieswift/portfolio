@@ -12250,8 +12250,8 @@ function About() {
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     className: "icon-circle d-flex align-items-center justify-content-center",
-    href: "./assets/Andie-Swift.pdf",
-    download: "./assets/Andie-Swift.pdf"
+    href: "./assets/Andie-Swift-Resume.pdf",
+    download: "./assets/Andie-Swift-Resume.pdf"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-file"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -12332,8 +12332,8 @@ function Contact() {
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     className: "icon-circle d-flex align-items-center justify-content-center",
-    href: "./assets/Andie-Swift.pdf",
-    download: "./assets/Andie-Swift.pdf"
+    href: "./assets/Andie-Swift-Resume.pdf",
+    download: "./assets/Andie-Swift-Resume.pdf"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-file"
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

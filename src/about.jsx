@@ -24,7 +24,7 @@ export default function About() {
               <a href="mailto:andie.swift5@gmail.com" target="_blank" className="icon-circle d-flex align-items-center justify-content-center">
                 <i className="contact-icon fas fa-envelope"></i>
               </a>
-              <a target="_blank" className="icon-circle d-flex align-items-center justify-content-center" href="./assets/Andie-Swift.pdf" download="./assets/Andie-Swift.pdf">
+              <a target="_blank" className="icon-circle d-flex align-items-center justify-content-center" href="./assets/Andie-Swift-Resume.pdf" download="./assets/Andie-Swift-Resume.pdf">
                 <i className="contact-icon fas fa-file"></i>
               </a>
             </div>
