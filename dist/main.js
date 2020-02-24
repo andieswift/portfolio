@@ -12434,9 +12434,21 @@ __webpack_require__.r(__webpack_exports__);
 class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      isOpen: false
+    };
+    this.toggleNav = this.toggleNav.bind(this);
+  }
+
+  toggleNav() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
   }
 
   render() {
+    const show = this.state.isOpen ? "show" : null;
+    console.log(this.state.isOpen);
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
       className: "fixed-top navbar navbar-expand-lg nav-bar-bg navbar-light p-0"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -12449,19 +12461,20 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
       className: "text-white nav-item"
     }, "AS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-      className: "navbar-toggler borderless",
+      className: "navbar-toggler",
       type: "button",
       "data-toggle": "collapse",
       "data-target": "#navbarNav",
       "aria-controls": "navbarNav",
-      "aria-expanded": "false",
-      "aria-label": "Toggle navigation"
+      "aria-expanded": this.state.isOpen,
+      "aria-label": "Toggle navigation",
+      onClick: this.toggleNav
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: "cursor-pointer text-white"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fas fa-bars"
     }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "collapse  navbar-collapse "
+      className: `collapse navbar-collapse ${show}`
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "w-100 d-flex justify-content-end"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
