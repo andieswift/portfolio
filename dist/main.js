@@ -12448,7 +12448,6 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
   render() {
     const show = this.state.isOpen ? "show" : null;
-    console.log(this.state.isOpen);
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
       className: "fixed-top navbar navbar-expand-lg nav-bar-bg navbar-light p-0"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -12461,7 +12460,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
       className: "text-white nav-item"
     }, "AS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-      className: "navbar-toggler",
+      className: "navbar-toggler borderless",
       type: "button",
       "data-toggle": "collapse",
       "data-target": "#navbarNav",
@@ -12476,9 +12475,9 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: `collapse navbar-collapse ${show}`
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "w-100 d-flex justify-content-end"
+      className: "w-100 d-flex "
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-      className: "navbar-nav"
+      className: "navbar-nav w-100 d-flex justify-content-end"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -12487,7 +12486,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       duration: 500,
       activeClass: "active",
       to: "about",
-      className: " cursor-pointer nav-link text-white"
+      className: " cursor-pointer nav-link text-white text-left"
     }, "ABOUT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {

@@ -99,6 +99,13 @@ box-shadow:  5px 5px 10px #c4c4c4,
   height: 10vh;
 }
 
+.show{
+  background-image: linear-gradient(to right,#0298fe, #ea2e7b);
+  height: fit-content;
+  /* box-shadow: 0 3px 10px -10px rgba(0,0,0,.3); */
+  padding-left: 2rem;
+}
+
 .white-border{
   border: white solid 3px;
 }
