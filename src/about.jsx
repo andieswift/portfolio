@@ -31,21 +31,10 @@ export default function About() {
           </div>
           <div className="col-lg-8 col-sm-12 d-flex flex-column justify-content-center align-items-start">
           <h1 className="lg-about-me"> ABOUT ME</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Tempor id eu nisl nunc mi. Volutpat ac tincidunt vitae semper quis
-          lectus nulla at. Eget nunc scelerisque viverra mauris in. Purus semper
-          eget duis at tellus. Etiam tempor orci eu lobortis. Bibendum ut tristique
-          et egestas quis ipsum. Nisl condimentum id venenatis a. Eget magna fermentum
-          iaculis eu non diam phasellus vestibulum lorem. Augue ut lectus arcu bibendum at.
-          Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Dui vivamus
-          arcu felis bibendum ut tristique et egestas. Sed sed risus pretium quam vulputate
-          dignissim suspendisse. Sapien pellentesque habitant morbi tristique. Pretium aenean
-          pharetra magna ac placerat vestibulum. Blandit cursus risus at ultrices mi tempus
-          imperdiet nulla malesuada. Sagittis id consectetur purus ut faucibus. Elementum
-          integer enim neque volutpat ac. Mi ipsum faucibus vitae aliquet nec. Posuere
-          sollicitudin aliquam ultrices sagittis. Tristique et egestas quis ipsum suspendisse
-          ultrices gravida.</p>
+            <p>Hi my name is Andie Swift and I am a Software Engineer located in Orange County, California. Ever since I was a kid, I have loved problem solving and creating new things. Throughout my life I have always enjoyed drawing and art; in particular I like creating something out of nothing. In college I discovered coding, and realized it was the perfect combination of problem solving and creativity. I fell in love immediately.
+            <br /> <br />In addition to a degree in Mathematics and Computer Science, I have also contributed in team-based hackathons and worked on solo projects to build front-end and full-stack applications. This experience, along with my collaborative style and easy-going personality would make me a valuable asset to your team.
+            My passion is to create applications that help users live a happier, healthier life. My dream is to be part of a team who has a passion that aligns with my own.
+           </p>
           </div>
         </div>
       </div>
