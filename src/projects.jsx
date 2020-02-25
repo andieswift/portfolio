@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div id="portfolio" className="portfolio-div">
       <div className="h-15 d-flex align-items-center justify-content-center" >
-        <h1>PROJECTS</h1>
+        <h1>PORTFOLIO</h1>
       </div>
       <div className="h-85 container">
         <div className="row project-row h-100 align-items-center justify-content-between">

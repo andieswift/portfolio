@@ -17,23 +17,24 @@ body{
 .logo-background{
   background-image: url(./images/logo-blog.svg);
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 59%;
   background-position: center;
 }
 
 .contact-logo {
   height: 60%;
-  width: 50%;
+  width: 58%;
 }
 
 #root, .contact-div, .about-div, .skills-div, .tools-div, .portfolio-div{
   height: 100vh;
+  padding-top: 3rem;
 }
 
+
 .portfolio-div {
-  padding-top: 5rem;
-  padding-right: 9rem;
-  padding-left: 9rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
 }
 
 .h-15{
@@ -175,7 +176,8 @@ box-shadow:  5px 5px 10px #c4c4c4,
 }
 
 .project-img{
-  width: 95%;
+  width: 90%;
+  height: 60%;
   border-radius: 10%;
 }
 
@@ -241,10 +243,12 @@ box-shadow:  3px 3px 7px #b0b0b0,
 
 .location-div{
   width: 75%;
+  margin-bottom: 1rem;
 }
 
 .contact-info {
   width: 50%;
+  margin-bottom: 1rem;
 }
 .top-right::before{
   position: absolute;
@@ -309,25 +313,29 @@ box-shadow:  3px 3px 7px #b0b0b0,
 }
 
 /* MEDIA QUERIESSSS */
-@media only screen and (max-device-width: 1366px) and (orientation: landscape) {
+@media (min-width: 1366px) {
   .contact-info {
     width: 25%;
   }
 
   .contact-div{
-    height: fit-content;
+    height: auto;
     padding-top: 5rem;
   }
 
-  .portfolio-div{
+  .portfolio-div, .skills-div, .tools-div, .about-div {
     height: fit-content;
-    padding-top: 5rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding-bottom: 2rem;
+    padding-top: 7rem;
+  }
+
+   .skill-row, .tools-row{
+    margin-bottom: 2rem;
   }
 
   .project-card{
-    border-radius: 7%;
+    border-radius: 8%;
+    height: 100%;
   }
 
   .contact-logo{
@@ -345,15 +353,16 @@ box-shadow:  3px 3px 7px #b0b0b0,
   }
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
   .about-div, .skills-div, .tools-div{
     height: auto;
     padding: 5rem;
+    padding-top: 9rem;
   }
 
   .portfolio-div{
     height: fit-content;
-    padding-top: 5rem;
+    padding-top: 9rem;
     padding-left: 0;
     padding-right: 0;
   }
@@ -374,6 +383,16 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .contact-info {
     margin: 1rem;
     width: 50%;
+  }
+
+  .icon-box {
+    height: 180px;
+    width: 180px;
+  }
+
+  .icon-box-dark {
+    height: 140px;
+    width: 140px;
   }
 
   .location-div{

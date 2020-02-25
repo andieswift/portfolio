@@ -12282,7 +12282,7 @@ __webpack_require__.r(__webpack_exports__);
 function Contact() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "contact",
-    className: "contact-div bg-light pt-5 d-flex flex-column justify-content-between align-items-center"
+    className: "contact-div bg-light d-flex flex-column justify-content-between align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container contact-logo logo-background"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -12552,7 +12552,7 @@ function Projects() {
     className: "portfolio-div"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-15 d-flex align-items-center justify-content-center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "PROJECTS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "PORTFOLIO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-85 container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row project-row h-100 align-items-center justify-content-between"
@@ -12667,7 +12667,7 @@ __webpack_require__.r(__webpack_exports__);
 function Skills() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "skills",
-    className: "skills-div pt-5 d-flex flex-column align-items-center"
+    className: "skills-div d-flex flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-15 d-flex skill-row align-items-end justify-content-end"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -12758,7 +12758,7 @@ __webpack_require__.r(__webpack_exports__);
 function Tools() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "tools",
-    className: "tools-div tool-bg d-flex flex-column align-itmes-center pt-5"
+    className: "tools-div tool-bg d-flex flex-column align-itmes-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-15 d-flex align-items-center justify-content-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {

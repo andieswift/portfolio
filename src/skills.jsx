@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 export default function Skills() {
   return (
-  <div id="skills" className="skills-div pt-5 d-flex flex-column align-items-center">
+  <div id="skills" className="skills-div d-flex flex-column align-items-center">
     <div className="h-15 d-flex skill-row align-items-end justify-content-end" >
       <h1>SKILLS</h1>
     </div>
