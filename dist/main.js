@@ -12255,7 +12255,7 @@ function About() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "contact-icon fas fa-file"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-8 col-sm-12 d-flex flex-column justify-content-center align-items-start"
+    className: "col-lg-8 col-sm-12 d-flex flex-column profile-text justify-content-center align-items-start"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "lg-about-me"
   }, " ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hi my name is Andie Swift and I am a Software Engineer located in Orange County, California. Ever since I was a kid, I have loved problem solving and creating new things. Throughout my life I have always enjoyed drawing and art; in particular I like creating something out of nothing. In college I discovered coding, and realized it was the perfect combination of problem solving and creativity. I fell in love immediately.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "In addition to a degree in Mathematics and Computer Science, I have also contributed in team-based hackathons and worked on solo projects to build front-end and full-stack applications. This experience, along with my collaborative style and easy-going personality would make me a valuable asset to your team. My passion is to create applications that help users live a happier, healthier life. My dream is to be part of a team who has a passion that aligns with my own.")))));
@@ -12282,7 +12282,7 @@ __webpack_require__.r(__webpack_exports__);
 function Contact() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "contact",
-    className: "contact-div bg-light d-flex flex-column justify-content-between align-items-center"
+    className: "contact-div bg-light d-flex flex-column justify-content-between align-items-center pb-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container contact-logo logo-background"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -12486,7 +12486,8 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       duration: 500,
       activeClass: "active",
       to: "about",
-      className: " cursor-pointer nav-link text-white text-left"
+      className: " cursor-pointer nav-link text-white text-left",
+      onClick: this.toggleNav
     }, "ABOUT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -12495,7 +12496,8 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       duration: 500,
       activeClass: "active",
       to: "skills",
-      className: "cursor-pointer nav-link text-white"
+      className: "cursor-pointer nav-link text-white",
+      onClick: this.toggleNav
     }, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -12504,7 +12506,8 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       duration: 500,
       activeClass: "active",
       to: "tools",
-      className: "cursor-pointer nav-link text-white"
+      className: "cursor-pointer nav-link text-white",
+      onClick: this.toggleNav
     }, "TOOLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -12513,7 +12516,8 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       duration: 500,
       activeClass: "active",
       to: "portfolio",
-      className: "cursor-pointer nav-link text-white"
+      className: "cursor-pointer nav-link text-white",
+      onClick: this.toggleNav
     }, "PORTFOLIO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -12522,7 +12526,8 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       duration: 500,
       activeClass: "active",
       to: "contact",
-      className: "cursor-pointer nav-link text-white"
+      className: "cursor-pointer nav-link text-white",
+      onClick: this.toggleNav
     }, "CONTACT"))))));
   }
 
@@ -12575,23 +12580,23 @@ function Projects() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "PORTFOLIO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "h-85 container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row project-row h-100 align-items-center justify-content-between"
+    className: "row project-row h-100 align-items-start justify-content-between"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-4 h-fit-content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex project-card card flex-column align-items-center"
+    className: "d-flex card flex-column align-items-center memory-match"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "card-img-top project-img",
     src: "./images/projects/wildflower-match-gradient-name.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-body pt-1 pl-3 pr-1"
+    className: "card-body pt-1 pr-1"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text project-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Wildflower Match"), " is a memory matching game. The images used are hand drawn illistrations of wildflowers. ", clickOrHover()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "card-text m-0 card-back"
-  }, "JavaScript JQuery HTML CSS "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using: ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text m-0 card-back mb-2"
+  }, "JavaScript JQuery HTML CSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-back"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/andieswift/wildflower-match",
@@ -12619,7 +12624,7 @@ function Projects() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Bujo Central"), " is a full-stack e-commerce application where the user can shop for bullet journalling supplies. ", clickOrHover()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "card-text m-0 card-back"
+    className: "card-text m-0 card-back mb-2"
   }, "React.js Bootstrap Node.js PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-back btn-div"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -12645,10 +12650,10 @@ function Projects() {
     className: "card-body pt-1 pl-3 pr-1"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text project-description"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Habit Tracker"), " is a full-stack application for users to track their habits or send list of habits to other users. ", clickOrHover()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Habit Tracker"), " is a full-stack application for users to track their habits or send list of habits, called routines, to other users. ", clickOrHover()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text m-0 card-back"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Made Using:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "card-text m-0 card-back"
+    className: "card-text m-0 card-back mb-2"
   }, "React.js Bootstrap Node.js PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-back"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
