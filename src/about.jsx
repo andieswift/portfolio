@@ -29,7 +29,7 @@ export default function About() {
               </a>
             </div>
           </div>
-          <div className="col-lg-8 col-sm-12 d-flex flex-column justify-content-center align-items-start">
+          <div className="col-lg-8 col-sm-12 d-flex flex-column profile-text justify-content-center align-items-start">
           <h1 className="lg-about-me"> ABOUT ME</h1>
             <p>Hi my name is Andie Swift and I am a Software Engineer located in Orange County, California. Ever since I was a kid, I have loved problem solving and creating new things. Throughout my life I have always enjoyed drawing and art; in particular I like creating something out of nothing. In college I discovered coding, and realized it was the perfect combination of problem solving and creativity. I fell in love immediately.
             <br /> <br />In addition to a degree in Mathematics and Computer Science, I have also contributed in team-based hackathons and worked on solo projects to build front-end and full-stack applications. This experience, along with my collaborative style and easy-going personality would make me a valuable asset to your team.

@@ -143,6 +143,7 @@ box-shadow:  5px 5px 10px #c4c4c4,
   width: 65%;
 }
 
+
 .icon-box {
   border-radius: 20%;
   width: 150px;
@@ -189,7 +190,7 @@ box-shadow:  5px 5px 10px #c4c4c4,
   padding-bottom: 2rem;
 }
 
-.project-card{
+.project-card, .memory-match{
   border-radius: 10%;
   border: none;
   height: 100%;
@@ -198,13 +199,23 @@ box-shadow:  5px 5px 10px #c4c4c4,
               -7px -7px 14px #ffffff;
 }
 
-.project-card:hover, .project-card:active{
+.project-card:hover, .project-card:active,
+.memory-match:hover, .memory-match:active{
 box-shadow:  3px 3px 7px #b0b0b0,
               -3px -3px 7px #ffffff;
 }
 
-.project-card:hover .project-description, .project-card:active .project-description {
+.project-card:hover .project-description, .project-card:active .project-description,
+.memory-match:hover .project-description, .memory-match:active .project-description {
   display: none;
+}
+
+.memory-match:hover .card-back, .memory-match:active .card-back{
+  display: block;
+}
+
+.memory-match .card-body{
+  width: 100%;
 }
 
 .project-card:hover .card-back, .project-card:active .card-back{
@@ -254,6 +265,8 @@ box-shadow:  3px 3px 7px #b0b0b0,
   width: 50%;
   margin-bottom: 1rem;
 }
+
+
 .top-right::before{
   position: absolute;
   border: 10px solid transparent;
@@ -337,7 +350,7 @@ box-shadow:  3px 3px 7px #b0b0b0,
     margin-bottom: 2rem;
   }
 
-  .project-card{
+  .project-card, .memory-match{
     border-radius: 8%;
     height: 100%;
   }
@@ -411,6 +424,11 @@ box-shadow:  3px 3px 7px #b0b0b0,
 
 
 @media only screen and (max-device-width: 812px) {
+
+  .nav-bar-bg{
+    height: 13vh;
+  }
+
   .about-div{
     padding: 1rem;
   }
@@ -418,6 +436,8 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .about-top-div{
     margin-top: 3rem;
   }
+
+
 
   .contact-bar{
     margin-top: 2rem;
@@ -450,6 +470,18 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .contact-logo{
     height: 335px;
   }
+  .about-div .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .profile-text {
+    width: 60%;
+  }
+
+  .col-sm-12{
+    width: 50%;
+  }
 
   .logo-background{
     background-size: 53%;
@@ -459,7 +491,7 @@ box-shadow:  3px 3px 7px #b0b0b0,
     width: 30%;
   }
 
-  .project-card{
+  .project-card, .memory-match{
     margin-bottom: 1rem;
   }
 }
@@ -479,6 +511,28 @@ box-shadow:  3px 3px 7px #b0b0b0,
 }
 
 @media only screen and (max-device-width: 667px) and (orientation: landscape) {
+  .top-right::before{
+  position: absolute;
+  border: 10px solid transparent;
+  content: '';
+  animation: draw-top 2s linear forwards;
+  top: 20%;
+  left: 12%;
+  }
+
+.bottom-left::before{
+  position: absolute;
+  border: 10px solid transparent;
+  content: '';
+  animation: draw-bottom 2s linear forwards;
+  animation-delay: 2s;
+  bottom: 5%;
+  left: 85%
+}
+
+  .nav-bar-bg{
+    height: 15vh;
+  }
   .h1-lg{
     font-size: 3.5rem;
   }
@@ -529,7 +583,7 @@ box-shadow:  3px 3px 7px #b0b0b0,
     margin-bottom: 2rem;
   }
 
-  .project-card{
+  .project-card, .memory-match{
     margin: 2rem;
   }
 }
