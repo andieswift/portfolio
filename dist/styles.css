@@ -21,6 +21,11 @@ body{
   background-position: center;
 }
 
+.profile-img, .contact-bar {
+  width: 100%;
+}
+
+
 .contact-logo {
   height: 60%;
   width: 58%;
@@ -421,8 +426,6 @@ box-shadow:  3px 3px 7px #b0b0b0,
 
 }
 
-
-
 @media only screen and (max-device-width: 812px) {
 
   .nav-bar-bg{
@@ -436,8 +439,6 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .about-top-div{
     margin-top: 3rem;
   }
-
-
 
   .contact-bar{
     margin-top: 2rem;
@@ -462,26 +463,168 @@ box-shadow:  3px 3px 7px #b0b0b0,
   }
 }
 
-@media only screen and (max-device-width: 812px) and (orientation: landscape) {
+
+@media only screen and (max-device-width: 823px) and (orientation: landscape) {
+
+  .nav-bar-bg {
+      height: 12vh;
+  }
+
+   .container {
+    max-width: 823px;
+  }
+
+  .tools-div{
+    height: 120vh;
+  }
+
   .contact-div{
     padding-top: 0;
+    height: 120vh;
+  }
+
+  .contact-bar{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .sm-about-me{
+    display: block;
+  }
+
+  .lg-about-me{
+    display: none;
+  }
+
+  .profile-img {
+    width: 40%;
+  }
+
+  .h1-lg {
+    font-size: 3.9rem;
+  }
+
+  .contact-bar{
+    width: 45%;
   }
 
   .contact-logo{
     height: 335px;
   }
-  .about-div .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
+
+  .portfolio-div {
+    padding-left: 0;
+    padding-right: 0;
+    height: 150vh;
+  }
+
+  .about-div {
+    height: 185vh;
+  }
+
+  .h-fit-content{
+    height: 416px;
+  }
+
+  .icon-box {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  .icon-box-dark {
+    width: 96px;
+    height: 96px;
   }
 
   .profile-text {
     width: 60%;
   }
 
-  .col-sm-12{
+  /* .col-sm-12{
     width: 50%;
+  } */
+
+  .logo-background{
+    background-size: 53%;
   }
+
+  .copy-right{
+    width: 30%;
+  }
+
+  .project-card, .memory-match{
+    margin-bottom: 1rem;
+  }
+
+  p{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-device-width: 812px) and (orientation: landscape) {
+  .container {
+    max-width: 812px;
+  }
+
+  .tools-div{
+    height: 120vh;
+  }
+
+  .contact-div{
+    padding-top: 0;
+    height: 140vh;
+  }
+
+  .profile-img {
+    width: 40%;
+  }
+
+  .h1-lg {
+    font-size: 3.9rem;
+  }
+
+  .contact-bar{
+    width: 45%;
+  }
+
+  .contact-logo{
+    height: 335px;
+  }
+
+  .about-div .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .portfolio-div {
+    padding-left: 0;
+    padding-right: 0;
+    height: 150vh;
+  }
+
+  .h-fit-content{
+    height: 416px;
+  }
+
+  .icon-box {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  .icon-box-dark {
+    width: 96px;
+    height: 96px;
+  }
+
+  .profile-text {
+    width: 60%;
+  }
+
+  /* .col-sm-12{
+    width: 50%;
+  } */
 
   .logo-background{
     background-size: 53%;
@@ -497,6 +640,30 @@ box-shadow:  3px 3px 7px #b0b0b0,
 }
 
 @media only screen and (max-device-width: 736px) and (orientation: landscape) {
+  .col-6{
+    max-width: 25% !important;
+  }
+
+  .col-12 {
+    max-width: 33.33%;
+  }
+
+  .about-div .container {
+    margin: 0;
+  }
+
+  .project-landscape {
+    max-width: 33.33%;
+  }
+
+  .project-img {
+    height: 50%;
+  }
+
+  .h1-lg {
+    font-size: 3.4rem;
+  }
+
   .contact-div{
     padding-top: 0;
   }
@@ -530,18 +697,76 @@ box-shadow:  3px 3px 7px #b0b0b0,
   left: 85%
 }
 
+.portfolio-div{
+  height: 130vh;
+}
+
   .nav-bar-bg{
     height: 15vh;
   }
   .h1-lg{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .h1-sm{
     font-size: 2.5rem;
   }
+
+  .h-fit-content{
+    height: 340px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-device-width: 640px) and (orientation: landscape) {
+  .h1-lg {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (max-device-width: 568px) and (orientation: landscape) {
+  .profile-text {
+    width: 100%;
+  }
+
+  .contact-bar {
+    width: 60%;
+  }
+
+  .tools-div {
+    height: 135vh;
+  }
+
+  .portfolio-div {
+    height: 130vh;
+  }
+
+  .h1-lg{
+    font-size: 2.4rem;
+  }
+
+  .h-fit-content {
+    height: 285px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+  .contact-logo .h-100{
+    height:84% !important;
+  }
+
 }
 
 @media only screen and (max-device-width: 414px) and (orientation: portrait) {
+
   .h1-lg{
     font-size: 2.5rem;
   }
@@ -551,6 +776,18 @@ box-shadow:  3px 3px 7px #b0b0b0,
 
   .skills-div, .tools-div{
     padding: 0;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  .about-div, .skills-div, .tools-div, .portfolio-div, .contact-div {
+    padding-top: 5rem;
+  }
+
+  .about-top-div{
+    margin-top: 0;
   }
 
   .contact-div {
@@ -596,4 +833,18 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .h1-sm{
     font-size: 1rem;
   }
+
+  .icon-box {
+    height: 130px;
+  }
+
+  .icon-box-dark {
+    height: 110px;
+    width: 110px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
 }

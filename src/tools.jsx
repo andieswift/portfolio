@@ -31,7 +31,7 @@ export default function Tools() {
           <div className="col-md-3 col-6 d-flex align-items-center justify-content-center">
             <div className=" icon-box-dark d-flex align-items-center justify-content-center flex-column">
               <img className="icon chrome" src="./images/tools/chrome-plain.png"></img>
-              <p className="text-white m-0 chrome-text">Chrome Dev Tools</p>
+              <p className="text-white m-0 chrome-text text-center">Chrome Dev Tools</p>
             </div>
           </div>
         </div>

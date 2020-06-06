@@ -25,7 +25,7 @@ export default function Projects() {
       </div>
       <div className="h-85 container">
         <div className="row project-row h-100 align-items-start justify-content-between">
-          <div className="col-md-4 h-fit-content">
+          <div className="col-md-4 project-landscape h-fit-content">
             <div className="d-flex card flex-column align-items-center memory-match">
               <img className="card-img-top project-img" src="./images/projects/wildflower-match-gradient-name.png" />
               <div className="card-body pt-1 pr-1">
@@ -39,7 +39,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 h-fit-content">
+          <div className="col-md-4 project-landscape h-fit-content">
             <div className="d-flex project-card card flex-column align-items-center">
               <img className="card-img-top project-img" src="./images/projects/bujo-central-gradient-name.png" />
               <div className="card-body pt-1 pl-3 pr-1">
@@ -53,7 +53,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 h-fit-content">
+          <div className="col-md-4 project-landscape h-fit-content">
             <div className="d-flex project-card card flex-column align-items-center">
               <img className="card-img-top project-img" src="./images/projects/habit-tracker-gradient-name.png" />
               <div className="card-body pt-1 pl-3 pr-1">

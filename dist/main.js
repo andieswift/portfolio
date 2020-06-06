@@ -12220,9 +12220,9 @@ function About() {
     className: "sm-about-me"
   }, "ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/profile-border.png",
-    className: "rounded profile-img w-100"
+    className: "rounded profile-img"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex flex-align-center justify-content-between w-100 m-lg-3 contact-bar"
+    className: "d-flex flex-align-center justify-content-between m-lg-3 contact-bar"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/andieswift",
     target: "_blank",
@@ -12258,7 +12258,7 @@ function About() {
     className: "col-lg-8 col-sm-12 d-flex flex-column profile-text justify-content-center align-items-start"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "lg-about-me"
-  }, " ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hi my name is Andie Swift and I am a Software Engineer located in Orange County, California. Ever since I was a kid, I have loved problem solving and creating new things. Throughout my life I have always enjoyed drawing and art; in particular I like creating something out of nothing. In college I discovered coding, and realized it was the perfect combination of problem solving and creativity. I fell in love immediately.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "In addition to a degree in Mathematics and Computer Science, I have also contributed in team-based hackathons and worked on solo projects to build front-end and full-stack applications. This experience, along with my collaborative style and easy-going personality would make me a valuable asset to your team. My passion is to create applications that help users live a happier, healthier life. My dream is to be part of a team who has a passion that aligns with my own.")))));
+  }, " ABOUT ME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "My name is Andie Swift. I am a Front-End Developer with an eye for design and a love of Coding. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "My bachelor\u2019s degree in computer science helped me develop a solid understanding of algorithms, data structures, object-oriented programming, and relational databases. After college, I attended a coding boot camp, which consisted of 700+ hours of coding. This help strengthen my skills and gain real-world experience in Javascript, React, Node, HTML, and CSS.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "In college as well as during boot camp, I participated in hackathons and team projects where we practiced git-flow and experienced an AGILE work environment. After completing the coding boot camp, I had the opportunity to help a start-up build the front end of their website. Before I started to code for them, I used Sketch to design the look and feel as well as the flow of pages for the website. Then I created new pages for their site using React, Redux and Sass. In addition I worked with a 3rd party RESTful API to ensure data was protected and flowed throughout the application.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "With my desire to grow as a programmer and to create as a designer, plus my passion for coding, willingness to work hard, and team-player attitude, I bet I\u2019d make a great addition to your team.")))));
 }
 
 /***/ }),
@@ -12582,7 +12582,7 @@ function Projects() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row project-row h-100 align-items-start justify-content-between"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-4 h-fit-content"
+    className: "col-md-4 project-landscape h-fit-content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex card flex-column align-items-center memory-match"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -12611,7 +12611,7 @@ function Projects() {
   }, "Live ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-external-link-alt"
   }), " "))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-4 h-fit-content"
+    className: "col-md-4 project-landscape h-fit-content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex project-card card flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -12640,7 +12640,7 @@ function Projects() {
   }, "Live ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-external-link-alt"
   }), " "))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-4 h-fit-content"
+    className: "col-md-4 project-landscape h-fit-content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex project-card card flex-column align-items-center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -12827,7 +12827,7 @@ function Tools() {
     className: "icon chrome",
     src: "./images/tools/chrome-plain.png"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-white m-0 chrome-text"
+    className: "text-white m-0 chrome-text text-center"
   }, "Chrome Dev Tools")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row tools-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
