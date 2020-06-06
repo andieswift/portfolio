@@ -515,15 +515,15 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .portfolio-div {
     padding-left: 0;
     padding-right: 0;
-    height: 150vh;
+    height: 130vh;
   }
 
   .about-div {
-    height: 185vh;
+    height: 190vh;
   }
 
   .h-fit-content{
-    height: 416px;
+    height: 365px;
   }
 
   .icon-box {
@@ -557,6 +557,7 @@ box-shadow:  3px 3px 7px #b0b0b0,
     margin-bottom: 1rem;
   }
 
+
   p{
     font-size: 13px;
   }
@@ -569,6 +570,10 @@ box-shadow:  3px 3px 7px #b0b0b0,
 
   .tools-div{
     height: 120vh;
+  }
+
+  .nav-bar-bg{
+    height: 13vh;
   }
 
   .contact-div{
@@ -592,19 +597,14 @@ box-shadow:  3px 3px 7px #b0b0b0,
     height: 335px;
   }
 
-  .about-div .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
   .portfolio-div {
     padding-left: 0;
     padding-right: 0;
-    height: 150vh;
+    height: 130vh;
   }
 
   .h-fit-content{
-    height: 416px;
+    height: 340px;
   }
 
   .icon-box {
@@ -637,6 +637,10 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .project-card, .memory-match{
     margin-bottom: 1rem;
   }
+
+  .about-div{
+    height: 210vh;
+  }
 }
 
 @media only screen and (max-device-width: 736px) and (orientation: landscape) {
@@ -652,12 +656,24 @@ box-shadow:  3px 3px 7px #b0b0b0,
     margin: 0;
   }
 
+  .contact-div{
+    height: 130vh;
+  }
+
   .project-landscape {
     max-width: 33.33%;
   }
 
+  .portfolio-div {
+    height: 110vh;
+  }
+
   .project-img {
-    height: 50%;
+    height: 63%;
+  }
+
+  .h-fit-content {
+    height: 325px;
   }
 
   .h1-lg {
@@ -696,9 +712,15 @@ box-shadow:  3px 3px 7px #b0b0b0,
   bottom: 5%;
   left: 85%
 }
+  .contact-div {
+      height: 135vh;
+  }
+  .portfolio-div{
+    height: 130vh;
+  }
 
-.portfolio-div{
-  height: 130vh;
+  .project-img {
+    height: 57%;
 }
 
   .nav-bar-bg{
@@ -723,6 +745,13 @@ box-shadow:  3px 3px 7px #b0b0b0,
 @media only screen and (max-device-width: 640px) and (orientation: landscape) {
   .h1-lg {
     font-size: 2.8rem;
+  }
+
+  .about-div{
+    height: 240vh;
+  }
+  .contact-div{
+    height: 141vh;
   }
 }
 
@@ -750,6 +779,10 @@ box-shadow:  3px 3px 7px #b0b0b0,
   .h-fit-content {
     height: 285px;
   }
+
+  .contact-div {
+    height: 140vh;
+}
 
   h3 {
     font-size: 20px;

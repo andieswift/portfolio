@@ -33,9 +33,7 @@ export default function About() {
           <h1 className="lg-about-me"> ABOUT ME</h1>
           <p>
            My name is Andie Swift. I am a Front-End Developer with an eye for design and a love of
-          Coding. <br /><br />
-
-          My bachelor’s degree in computer science helped me develop a solid understanding of
+          Coding. My bachelor’s degree in computer science helped me develop a solid understanding of
           algorithms, data structures, object-oriented programming, and relational databases. After college, I attended a coding boot camp, which consisted of 700+ hours of coding. This help strengthen my skills and gain real-world experience in Javascript, React, Node, HTML, and CSS.
            <br /><br />
           In college as well as during boot camp, I participated in hackathons and team projects
