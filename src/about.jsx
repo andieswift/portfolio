@@ -9,7 +9,7 @@ export default function About() {
         <div className="row h-100">
           <div className = "about-top-div col-lg-4 col-sm-12 profile-img-div d-flex flex-column justify-content-center align-items-center">
             <h1 className="sm-about-me">ABOUT ME</h1>
-            <img src="./images/profile-border.png" className="rounded profile-img"></img>
+            <img src="./images/profile-picture.jpg" className="rounded profile-img"></img>
             <div className="d-flex flex-align-center justify-content-between m-lg-3 contact-bar">
               {/* git hub linked in phone email resume */}
               <a href="https://github.com/andieswift" target="_blank" className="icon-circle d-flex align-items-center justify-content-center ">
@@ -32,20 +32,18 @@ export default function About() {
           <div className="col-lg-8 col-sm-12 d-flex flex-column profile-text justify-content-center align-items-start">
           <h1 className="lg-about-me"> ABOUT ME</h1>
           <p>
-           My name is Andie Swift. I am a Front-End Developer with an eye for design and a love of
-          Coding. My bachelor’s degree in computer science helped me develop a solid understanding of
-          algorithms, data structures, object-oriented programming, and relational databases. After college, I attended a coding boot camp, which consisted of 700+ hours of coding. This help strengthen my skills and gain real-world experience in Javascript, React, Node, HTML, and CSS.
+              My name is Andie Swift. I am a software engineer with an eye for design and a love of coding.
+              My bachelor’s degree in computer science helped me develop a solid understanding of algorithms, data structures, object-oriented programming, and relational databases.
+              After college, I attended a coding boot camp, which help strengthen my skills and gain real-world experience in Javascript, React, Node, HTML, and CSS.
            <br /><br />
-          In college as well as during boot camp, I participated in hackathons and team projects
-          where we practiced git-flow and experienced an AGILE work environment.
-          After completing the coding boot camp, I had the opportunity to help a start-up build the
-          front end of their website. Before I started to code for them, I used Sketch to design the
-          look and feel as well as the flow of pages for the website. Then I created new pages for their site using React, Redux and Sass. In addition I worked with a 3rd party RESTful API to ensure data was protected and flowed throughout the application.
+              Beyond programming I have quite a few passions I want to continue to integrate into my career.
+              Currently I work for McGraw Hill coding interactive homework and test questions.
+              I am so excited be part of this team because I have always had a passion for education.
+              In-between college and the boot camp, I served a year for AmeriCorps in a classroom helping students with math.
+              I love that my experience in AmeriCorps is able to transfer into my current role.
             <br /><br />
-          With my desire to grow as a programmer and to create as a designer, plus my passion
-          for coding, willingness to work hard, and team-player attitude, I bet I’d make a
-          great addition to your team.
-
+              I also am passionate about design, mental health, and sustainability.
+              I find fulfillment from being a part of a company whose mission aligns with one or more of my passions.
            </p>
           </div>
         </div>
