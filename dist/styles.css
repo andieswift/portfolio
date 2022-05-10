@@ -84,7 +84,8 @@ a:hover{
 }
 
 .profile-img{
-box-shadow:  5px 5px 10px #c4c4c4,
+  border: 7px solid #ea2e7b;
+  box-shadow:  5px 5px 10px #c4c4c4,
               -5px -5px 10px #ffffff;
 }
 
