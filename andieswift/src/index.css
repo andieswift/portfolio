@@ -1,0 +1,140 @@
+:root {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  color: #292929;
+  background-color: #EFEFEF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #292929;
+  color: #EFEFEF;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.nav-right {
+  padding-right:3rem;
+}
+
+.nav-right .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-right .nav-links li {
+  margin-right: 2rem;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: #EFEFEF
+}
+
+.nav-links a:hover {
+  color: #F98ECE;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-underline-offset:1.5rem;
+  text-decoration-thickness: 5px;
+}
+
+.nav-left .logo {
+  height: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Name */
+
+.name-title-container {
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 50%;
+}
+
+.name-title-container h1{
+  margin: 0;
+  font-weight: 500;
+  font-size: 4em; 
+}
+
+.name-title-container h3{
+  margin: 1rem 0;
+  font-weight: 350;
+  font-size: 2.5em;
+}
+
+.name-title-container > div{
+ margin: 2rem 0;
+ padding-left: 1rem;
+}
+
+.primary-button-container {
+  position: relative;
+  display: block;
+  left: 10px;
+  width: fit-content;
+  margin-top: 30px;
+  padding: 25px;
+  border: 3px solid #292929;
+  background-color: #292929;
+  cursor: pointer;
+}
+
+.primary-button {
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: large;
+  display: block;
+  border: solid #F6A7D6;
+  background-color: #F6A7D6;
+  border-width: 0 10px;
+  margin-top: -36px;
+  margin-left: -37px;
+  margin-right: -19px;
+  margin-bottom: -17px;
+  padding: 15px;
+}
+
+.primary-button:active {
+  transform: translateY(9px) translateX(9px);
+  border: solid #F98ECE;
+  background-color: #F98ECE;
+  border-width: 3px 10px;
+  margin-top: -37px;
+  margin-bottom: -26px;
+}
