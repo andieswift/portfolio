@@ -1,6 +1,6 @@
 export const Name = () => {
   return (
-    <div className="name-title-container">
+    <div id="name" className="content-container">
       <h1>ANDIE SWIFT</h1>
       <h3>web developer</h3>
       <div>

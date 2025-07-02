@@ -1,10 +1,11 @@
 :root {
+
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
 
-  color: #292929;
-  background-color: #EFEFEF;
+  color: #040404;
+    background-color: #FEFFF5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,6 +18,9 @@
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -32,21 +36,20 @@ h1 {
 /* Nav Bar */
 
 .nav-bar {
+  position: sticky;
+    top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #292929;
+  background-color: #A748D6;
   color: #EFEFEF;
-  padding: 1rem 2rem;
-  width: 100%;
-}
-
-.nav-right {
-  padding-right:3rem;
+  z-index: 100;
 }
 
 .nav-right .nav-links {
   list-style-type: none;
+  font-weight: bold;
+    text-transform: uppercase;
   display: flex;
   margin: 0;
   padding: 0;
@@ -62,43 +65,50 @@ h1 {
 }
 
 .nav-links a:hover {
-  color: #F98ECE;
-  font-weight: bold;
-  text-decoration-line: underline;
-  text-underline-offset:1.5rem;
-  text-decoration-thickness: 5px;
+  color: black;
 }
 
+.nav-links a.active {
+  color: black;
+}
 .nav-left .logo {
-  height: 2em;
+  height: 3em;
   font-weight: bold;
   text-decoration: none;
+  object-fit: cover;
+  }
+  
+  .logo {
+    height: 5em;
+    object-fit: cover;
+    cursor: pointer;
 }
 
 /* Name */
 
-.name-title-container {
+.content-container {
   text-align: left;
-  margin-top: 2rem;
+    padding-top: 6rem;
   margin-left: 3rem;
   width: 50%;
 }
 
-.name-title-container h1{
+.content-container h1 {
   margin: 0;
   font-weight: 500;
   font-size: 4em; 
 }
 
-.name-title-container h3{
+.content-container h3 {
   margin: 1rem 0;
   font-weight: 350;
   font-size: 2.5em;
 }
 
-.name-title-container > div{
+.content-container>div {
  margin: 2rem 0;
  padding-left: 1rem;
+height: 75vh;
 }
 
 .primary-button-container {
@@ -108,33 +118,19 @@ h1 {
   width: fit-content;
   margin-top: 30px;
   padding: 25px;
-  border: 3px solid #292929;
-  background-color: #292929;
   cursor: pointer;
 }
 
 .primary-button {
   cursor: pointer;
+  border: none;
+    border-radius: 0 30px 0 30px;
   font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
   font-weight: 500;
   font-size: large;
   display: block;
-  border: solid #F6A7D6;
-  background-color: #F6A7D6;
-  border-width: 0 10px;
-  margin-top: -36px;
-  margin-left: -37px;
-  margin-right: -19px;
-  margin-bottom: -17px;
-  padding: 15px;
+  background-color: #91F57B;
+    padding: 10px 15px;
 }
 
-.primary-button:active {
-  transform: translateY(9px) translateX(9px);
-  border: solid #F98ECE;
-  background-color: #F98ECE;
-  border-width: 3px 10px;
-  margin-top: -37px;
-  margin-bottom: -26px;
-}
