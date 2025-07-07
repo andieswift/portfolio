@@ -23,8 +23,8 @@ export const NavBar = () => {
         if (isManuallyScrolling.current) return;
 
         entries.forEach((entry) => {
-          if (entry.isIntersecting && window.scrollY > 100) {
-            if (window.scrollY > 100) {
+          if (entry.isIntersecting && window.scrollY > 40) {
+            if (window.scrollY > 40) {
               setSelected(entry.target.id);
             } else {
               setSelected("");

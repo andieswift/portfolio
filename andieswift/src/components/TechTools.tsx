@@ -1,8 +1,10 @@
+import Heading from "../assets/headings/Tech-Tools.png";
+
 export const TechTools = () => {
   return (
-    <div id="tech-tools" className="content-container">
-      <h1>TECH + TOOLS</h1>
-       <div className="mock-div"></div>
+    <div id="tech-tools" className="h-screen">
+      <img src={Heading} className="p-10 w-[75%]" />
+      <div className="mock-div"></div>
     </div>
   );
 };
