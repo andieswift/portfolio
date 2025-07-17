@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import Logo from "../assets/as-logo.svg";
 
 export const NavBar = () => {
@@ -13,40 +13,6 @@ export const NavBar = () => {
       isManuallyScrolling.current = false;
     }, 800);
   };
-
-  useEffect(() => {
-    const sectionIds = ["experience", "tech-tools", "about", "contact"];
-    const sectionElements = sectionIds.map((id) => document.getElementById(id));
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (isManuallyScrolling.current) return;
-
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && window.scrollY > 40) {
-            if (window.scrollY > 40) {
-              setSelected(entry.target.id);
-            } else {
-              setSelected("");
-            }
-          }
-        });
-      },
-      {
-        threshold: 0.6,
-      }
-    );
-
-    sectionElements.forEach((el) => {
-      if (el) observer.observe(el);
-    });
-
-    return () => {
-      sectionElements.forEach((el) => {
-        if (el) observer.unobserve(el);
-      });
-    };
-  }, []);
 
   return (
     <nav className="nav-bar" role="navigation">

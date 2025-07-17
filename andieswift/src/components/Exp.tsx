@@ -46,7 +46,7 @@ export const Exp = () => {
       ),
     },
     {
-      name: "NorthropGruman",
+      name: "NorthropGrumman",
       year: "2022 - 2024",
       title: "Software Engineer",
       dets: (
@@ -121,7 +121,7 @@ export const Exp = () => {
   ];
   return (
     <div id="experience" className="h-screen">
-      <img src={Heading} className="p-10 w-1/2" />
+      <img src={Heading} className="p-10 w-1/2" alt="Expierence" />
       <div className="m-auto w-[80%]">
         <Accordion
           value={selected}
