@@ -10,40 +10,49 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 
 export const ContactIcons = () => (
-  <div className="flex mt-3">
+  <div className="flex flex-wrap justify-center gap-4 mt-3">
     <button
       type="button"
-      className="text-white cursor-pointer focus:ring-4 focus:outline-none focus:ring-green-300 rounded-lg p-2.5 text-center "
+      onClick={() => window.open("tel:+19494397264")}
+      className="text-white cursor-pointer focus:ring-4 hover:scale-105 transition-transform focus:outline-none focus:ring-green-300 rounded-lg p-2.5 text-center"
     >
-      <img src={PhoneIcon} className="w-[50px]" alt="phoneIcon" />
+      <img src={PhoneIcon} className="w-[50px]" alt="Phone icon" />
     </button>
 
     <button
       type="button"
-      className="text-white cursor-pointer focus:ring-4 focus:outline-none focus:ring-green-300 rounded-lg p-2.5 text-center "
+      onClick={() => window.open("mailto:andieswift5@gmail.com")}
+      className="text-white cursor-pointer focus:ring-4 focus:outline-none hover:scale-105 transition-transform focus:ring-green-300 rounded-lg p-2.5 text-center"
     >
-      <img src={EmailIcon} className="w-[50px]" alt="phoneIcon" />
+      <img src={EmailIcon} className="w-[50px]" alt="Email icon" />
     </button>
 
     <button
       type="button"
-      className="text-white cursor-pointer focus:ring-4 focus:outline-none focus:ring-green-300 rounded-lg p-2.5 text-center "
+      onClick={() =>
+        window.open("https://www.linkedin.com/in/andieswift", "_blank")
+      }
+      className="text-white cursor-pointer focus:ring-4 focus:outline-none hover:scale-105 transition-transform focus:ring-green-300 rounded-lg p-2.5 text-center"
     >
-      <img src={LinkedInIcon} className="w-[50px]" alt="phoneIcon" />
+      <img src={LinkedInIcon} className="w-[50px]" alt="LinkedIn icon" />
     </button>
 
     <button
       type="button"
-      className="text-white cursor-pointer focus:ring-4 focus:outline-none focus:ring-green-300 rounded-lg p-2.5 text-center "
+      onClick={() => window.open("https://github.com/andieswift", "_blank")}
+      className="text-white cursor-pointer focus:ring-4 focus:outline-none hover:scale-105 transition-transform focus:ring-green-300 rounded-lg p-2.5 text-center"
     >
-      <img src={GitHubIcon} className="w-[50px]" alt="phoneIcon" />
+      <img src={GitHubIcon} className="w-[50px]" alt="GitHub icon" />
     </button>
 
     <button
       type="button"
-      className="text-white cursor-pointer focus:ring-4 focus:outline-none focus:ring-green-300 rounded-lg p-2.5 text-center "
+      onClick={() =>
+        window.open("src/assets/Andie-Swift-Resume-2025.pdf", "_blank")
+      }
+      className="text-white cursor-pointer focus:ring-4 focus:outline-none hover:scale-105 transition-transform focus:ring-green-300 rounded-lg p-2.5 text-center"
     >
-      <img src={ResumeIcon} className="w-[50px]" alt="phoneIcon" />
+      <img src={ResumeIcon} className="w-[50px]" alt="Resume icon" />
     </button>
   </div>
 );
@@ -65,14 +74,21 @@ export const Name = () => {
   );
 
   return (
-    <div id="name" className="flex my-10" ref={container}>
+    <div
+      id="name"
+      ref={container}
+      className="flex flex-col xl:flex-row items-center justify-center my-10 xl:mx-32 mx-4 space-y-8 xl:space-y-0 xl:space-x-10"
+    >
       <img
         src={Heading}
-        className="nameImg p-10 w-1/2 cursor-pointer"
+        className="nameImg w-3/4 sm:w-2/3 md:w-1/2 xl:w-1/2 p-4 cursor-pointer"
         alt="Andie Swift"
       />
-      <div className="flex flex-col items-center my-30 mx-10">
-        <h1>SOFTWARE ENGINEER</h1>
+
+      <div className="flex flex-col items-center text-center">
+        <h1 className="text-lg sm:text-xl md:text-2xl font-semibold">
+          SOFTWARE ENGINEER
+        </h1>
         <ContactIcons />
       </div>
     </div>

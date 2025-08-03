@@ -34,55 +34,8 @@ h1 {
   line-height: 1.1;
 }
 
-/* Nav Bar */
-
-.nav-bar {
-  position: sticky;
-    top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #A748D6;
-  color: #EFEFEF;
-  z-index: 100;
-}
-
-.nav-right .nav-links {
-  list-style-type: none;
-  font-weight: bold;
-    text-transform: uppercase;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-right .nav-links li {
-  margin-right: 2rem;
-}
-
-.nav-links a{
-  text-decoration: none;
-  color: #EFEFEF
-}
-
-.nav-links a:hover {
-  color: black;
-}
-
-.nav-links a.active {
-  color: black;
-}
-.nav-left .logo {
-  height: 3em;
-  font-weight: bold;
-  text-decoration: none;
-  object-fit: cover;
-  }
-  
-  .logo {
-    height: 5em;
-    object-fit: cover;
-    cursor: pointer;
+h2 {
+  font-size: 2em;
 }
 
 /* Name */

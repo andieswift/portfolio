@@ -120,8 +120,12 @@ export const Exp = () => {
     },
   ];
   return (
-    <div id="experience" className="h-screen">
-      <img src={Heading} className="p-10 w-1/2" alt="Expierence" />
+    <div id="experience" className="">
+      <img
+        src={Heading}
+        className="p-10 w-full sm:w-3/4 md:w-3/5 xl:w-1/2"
+        alt="Expierence"
+      />
       <div className="m-auto w-[80%]">
         <Accordion
           value={selected}
@@ -133,8 +137,8 @@ export const Exp = () => {
           {resume.map((resumeItem) => (
             <AccordionItem value={resumeItem.name} key={resumeItem.name}>
               <AccordionTrigger className="font-bold hover:no-underline">
-                <div className="px-3 flex justify-between w-full">
-                  <span>{resumeItem.year}</span>{" "}
+                <div className="px-3 flex flex-col sm:flex-row justify-between w-full">
+                  <span className="pb-2 md:pb-0">{resumeItem.year}</span>{" "}
                   <span className="flex flex-col">
                     <span>{resumeItem.title}</span>
                     <span className="font-light">@{resumeItem.name}</span>
