@@ -4,13 +4,14 @@ import LinkedInIcon from "../assets/icons/linkedIn.png";
 import EmailIcon from "../assets/icons/email.png";
 import GitHubIcon from "../assets/icons/git.png";
 import ResumeIcon from "../assets/icons/file-download.png";
+import Resume from "../assets/Andie-Swift-Resume-2025.pdf";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 
 export const ContactIcons = () => (
-  <div className="flex flex-wrap justify-center gap-4 mt-3">
+  <div className="flex flex-wrap justify-center gap-4 mt-3 m-10">
     <button
       type="button"
       onClick={() => window.open("tel:+19494397264")}
@@ -47,9 +48,7 @@ export const ContactIcons = () => (
 
     <button
       type="button"
-      onClick={() =>
-        window.open("src/assets/Andie-Swift-Resume-2025.pdf", "_blank")
-      }
+      onClick={() => window.open(Resume, "_blank")}
       className="text-white cursor-pointer focus:ring-4 focus:outline-none hover:scale-105 transition-transform focus:ring-green-300 rounded-lg p-2.5 text-center"
     >
       <img src={ResumeIcon} className="w-[50px]" alt="Resume icon" />
@@ -77,7 +76,7 @@ export const Name = () => {
     <div
       id="name"
       ref={container}
-      className="flex flex-col xl:flex-row items-center justify-center my-10 xl:mx-32 mx-4 space-y-8 xl:space-y-0 xl:space-x-10"
+      className="flex flex-col lg:flex-row items-center justify-center my-10 xl:mx-32 mx-4 space-y-8 xl:space-y-0 xl:space-x-10"
     >
       <img
         src={Heading}

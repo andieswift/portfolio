@@ -12,9 +12,7 @@ export const Contact = () => {
       />
       <div className="m-10 mb-20 flex flex-col items-center ">
         <h1 className="text-lg sm:text-xl md:text-2xl">Let's Get In Touch!</h1>
-        <div className="m-10">
-          <ContactIcons />
-        </div>
+        <ContactIcons />
       </div>
     </div>
   );
